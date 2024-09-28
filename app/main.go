@@ -1,6 +1,9 @@
 package app
 
-import "file-manager/app/functions"
+import (
+	"file-manager/app/functions"
+	"file-manager/app/watchdog"
+)
 
 type Application struct {
 	CurrentLocation string
@@ -12,6 +15,17 @@ func NewApplication() *Application {
 	}
 }
 
-func (a *Application) ChangeDirectory(path string) {
+func (a *Application) ChangeDirectory(path string) []byte {
 	functions.TraverseDirectories(path)
+	wd := watchdog.NewWatchDog()
+
+	wd.MsgChannel <- path
+
+	/*
+	   response contains list of files and folders in the current path
+	   the data is an array of bytes
+	*/
+	data := <-wd.ResponseChannel
+
+	return data
 }

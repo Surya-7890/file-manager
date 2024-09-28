@@ -3,12 +3,14 @@ package watchdog
 import "fmt"
 
 type WatchDog struct {
-	MsgChannel chan string
+	MsgChannel      chan string
+	ResponseChannel chan []byte
 }
 
 func NewWatchDog() *WatchDog {
 	return &WatchDog{
-		MsgChannel: make(chan string, 10),
+		MsgChannel:      make(chan string, 10),
+		ResponseChannel: make(chan []byte, 10),
 	}
 }
 
