@@ -1,6 +1,11 @@
 package watchdog
 
-import "fmt"
+import (
+	"file-manager/app/functions"
+	"fmt"
+	"os"
+	"os/exec"
+)
 
 type WatchDog struct {
 	MsgChannel      chan string
@@ -25,7 +30,29 @@ func (w *WatchDog) Watch() {
 	   it waits for any message on the channel
 	   when a message is received on this channel, we retrive the details and send it to client
 	*/
-	for msg := range w.MsgChannel {
-		fmt.Println(msg)
+	for path := range w.MsgChannel {
+		fmt.Println("path: ", path)
+		cmd := exec.Command("ls", "-la")
+		dir, err := os.UserHomeDir()
+
+		if err != nil {
+			w.ResponseChannel <- []byte("error while looking up files and folders" + err.Error())
+			continue
+		}
+		cmd.Dir = dir
+
+		data, err := cmd.Output()
+		if err != nil {
+			w.ResponseChannel <- []byte("error while looking up files and folders" + err.Error())
+			continue
+		}
+
+		response, err := functions.FileListToJson(string(data))
+		if err != nil {
+			w.ResponseChannel <- []byte(err.Error())
+			continue
+		}
+
+		w.ResponseChannel <- response
 	}
 }
