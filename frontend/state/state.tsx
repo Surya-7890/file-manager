@@ -1,5 +1,6 @@
 import { create } from "zustand"
 import { setContents } from "../functions/changeDirectory"
+import { FILE } from "../types/file"
 
 /*  
     interface contains the total state of the application 
@@ -25,17 +26,14 @@ interface Application {
         updated when change_location function is called
         @todo ~ need to define a type for this
     */
-    contents: any
+    contents: FILE[]
 } 
 
 export const app = create<Application>((set) =>({
     current_location: "~",
     contents: [],
     change_location: async (path: string) => {
-        console.log("1")
         const contents = await setContents(path)
-        console.log(contents)
-        console.log("2")
         set((state) => ({
             ...state,
             current_location: path,

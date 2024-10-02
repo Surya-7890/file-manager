@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { app as application } from "../state/state"
+import Navbar from "./components/Navbar"
 
 export default function App() {
     const app = application(state => state)
@@ -10,7 +11,8 @@ export default function App() {
 
 
     return (
-        <div className="h-screen w-screen bg-gray-950">
+        <div className="h-screen w-screen bg-gray-900 text-white">
+           <Navbar/>
         </div>
     )
 }

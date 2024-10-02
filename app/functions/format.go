@@ -16,12 +16,23 @@ type File struct {
 	Date        string `json:"date"`
 	Time        string `json:"time"`
 	Name        string `json:"name"`
+	Type        string `json:"type"`
 }
+
+var (
+	FileType = map[string]string{
+		"d": "Directory",
+		"-": "File",
+		"l": "Symbolic Link",
+		"b": "Block Device",
+		"c": "Character Device",
+		"s": "Socket",
+		"p": "Named Pipe",
+	}
+)
 
 func FileListToJson(data string) ([]byte, error) {
 	var files []File
-
-	fmt.Println(data)
 
 	lines := strings.Split(data, "\n")
 
@@ -46,7 +57,7 @@ func FileListToJson(data string) ([]byte, error) {
 		fmt.Sscanf(fields[1], "%d", &links)
 		fmt.Sscanf(fields[4], "%d", &size)
 
-		if len(strings.Split(fields[7], ":")) == 1 {
+		if len(strings.Split(fields[7], ":")) > 1 {
 			date = fields[5] + " " + fields[6]
 			time = fields[7]
 			name = strings.Join(fields[8:], " ")
@@ -55,6 +66,8 @@ func FileListToJson(data string) ([]byte, error) {
 			time = fields[8]
 			name = strings.Join(fields[9:], " ")
 		}
+
+		fmt.Println(string(name[0]))
 
 		fileData := File{
 			Permissions: fields[0],
@@ -65,6 +78,7 @@ func FileListToJson(data string) ([]byte, error) {
 			Date:        date,
 			Time:        time,
 			Name:        name,
+			Type:        FileType[string(fields[0][0])],
 		}
 
 		files = append(files, fileData)
