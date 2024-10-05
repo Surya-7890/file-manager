@@ -2,8 +2,6 @@ package watchdog
 
 import (
 	"file-manager/app/functions"
-	"fmt"
-	"os"
 	"os/exec"
 )
 
@@ -31,15 +29,8 @@ func (w *WatchDog) Watch() {
 	   when a message is received on this channel, we retrive the details and send it to client
 	*/
 	for path := range w.MsgChannel {
-		fmt.Println("path: ", path)
 		cmd := exec.Command("ls", "-la")
-		dir, err := os.UserHomeDir()
-
-		if err != nil {
-			w.ResponseChannel <- []byte("error while looking up files and folders" + err.Error())
-			continue
-		}
-		cmd.Dir = dir
+		cmd.Dir = path
 
 		data, err := cmd.Output()
 		if err != nil {

@@ -8,9 +8,7 @@ export const setContents = async (location: string): Promise<FILE[]> =>  {
             parse the json and return it
         */
         const response = await ChangeDirectory(location)
-        console.log(response)
         const contents = JSON.parse(response)
-        console.log(contents)
         return contents
     } catch (error) {
         console.log(error)

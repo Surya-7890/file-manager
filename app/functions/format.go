@@ -67,8 +67,6 @@ func FileListToJson(data string) ([]byte, error) {
 			name = strings.Join(fields[9:], " ")
 		}
 
-		fmt.Println(string(name[0]))
-
 		fileData := File{
 			Permissions: fields[0],
 			Links:       links,

@@ -2,13 +2,12 @@ package app
 
 import (
 	"file-manager/app/watchdog"
-	"fmt"
 	"os"
 )
 
 type Application struct {
-	CurrentLocation string
-	WatchDog        *watchdog.WatchDog
+	CurrentPath string
+	WatchDog    *watchdog.WatchDog
 }
 
 func NewApplication() *Application {
@@ -19,8 +18,8 @@ func NewApplication() *Application {
 	}()
 
 	return &Application{
-		CurrentLocation: "~",
-		WatchDog:        wd,
+		CurrentPath: "/",
+		WatchDog:    wd,
 	}
 }
 
@@ -34,9 +33,7 @@ func (a *Application) ChangeDirectory(path string) string {
 		return "error while changing directory" + err.Error() + " " + path
 	}
 
-	fmt.Println("hellow")
 	a.WatchDog.MsgChannel <- path
-	fmt.Println("hellow da")
 	/*
 	   response contains list of files and folders in the current path
 	   the data is an array of bytes
