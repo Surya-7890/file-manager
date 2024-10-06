@@ -13,7 +13,7 @@ export default function MyComputer() {
             </div>
             <div className={`${isOpen ? "h-[400px]" : "h-0"} overflow-hidden transition-all duration-200`}>
                 {
-                    myComputerComponent.map(element => {
+                    myComputerComponent().map(element => {
                         return (
                             <MyComputerComponents key={element.name} element={element}/>
                         )

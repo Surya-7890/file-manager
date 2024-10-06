@@ -1,5 +1,5 @@
 import { create } from "zustand"
-import { setContents } from "../functions/changeDirectory"
+import { setContents, GetInitialContents } from "../functions"
 import { FILE } from "../types/file"
 
 /*  
@@ -13,6 +13,10 @@ interface Application {
     current_location: string[]
 
     show_all: boolean
+    
+    home_directiry: string
+
+    change_home_directory: () => Promise<void>
 
     toggle_hidden: () => void
 
@@ -35,7 +39,16 @@ interface Application {
 export const app = create<Application>((set, get) =>({
     current_location: [ "/" ],
     contents: [],
+    home_directiry: "",
     show_all: false,
+    change_home_directory: async () => {
+        const dir = await GetInitialContents()
+        console.log(dir)
+        set((state) => ({
+            ...state, 
+            home_directiry: dir
+        }))
+    },
     toggle_hidden: () => {
         set((state => ({
             ...state, 
@@ -50,17 +63,19 @@ export const app = create<Application>((set, get) =>({
         }))
         await get().get_contents()
     },
-    go_forward: (new_path: string) => {
+    go_forward: async (new_path: string) => {
         set((state) => ({
             ...state,
-            current_location: [ ...state.current_location, new_path ]
+            current_location: [ ...state.current_location, ...new_path.split("/") ]
         }))
+        await get().get_contents()
     },
-    replace_location: (new_path: string) => {
+    replace_location: async (new_path: string) => {
         set((state) => ({
             ...state,
             current_location: [ ...new_path.split("/") ]
         }))
+        await get().get_contents()
     },
     get_contents: async () => {
         const path_string = get().current_location.join("/")

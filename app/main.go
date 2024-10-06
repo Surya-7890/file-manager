@@ -1,6 +1,7 @@
 package app
 
 import (
+	"file-manager/app/functions"
 	"file-manager/app/watchdog"
 	"os"
 )
@@ -32,7 +33,6 @@ func (a *Application) ChangeDirectory(path string) string {
 	if err := os.Chdir(dir); err != nil {
 		return "error while changing directory" + err.Error() + " " + path
 	}
-
 	a.WatchDog.MsgChannel <- path
 	/*
 	   response contains list of files and folders in the current path
@@ -42,4 +42,8 @@ func (a *Application) ChangeDirectory(path string) string {
 	data := <-a.WatchDog.ResponseChannel
 
 	return string(data)
+}
+
+func (a *Application) GetInitialData() string {
+	return functions.InitialData()
 }

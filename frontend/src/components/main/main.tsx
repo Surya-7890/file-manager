@@ -9,9 +9,9 @@ export default function Main() {
                 <div className="h-fit grid grid-cols-10 gap-y-10 pt-5 px-5">
                 {
                     contents.map(item => (
-                        <div className="h-[100px] aspect-square" key={item.name}>
-                            <img src="src/assets/images/folder_icon.png" className="cursor-pointer" />
-                            <div className="text-center">{item.name}</div> 
+                        <div className="h-[70px] aspect-square" key={item.name}>
+                            <img src="src/assets/images/folder_icon.png" className="cursor-pointer h-full" />
+                            <div className="text-center text-sm">{item.name.substr(0, 10)}</div> 
                         </div>
                     ))  
                 }
