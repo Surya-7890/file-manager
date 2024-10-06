@@ -71,6 +71,7 @@ export const app = create<Application>((set, get) =>({
         await get().get_contents()
     },
     replace_location: async (new_path: string) => {
+        console.log("new path:  ", new_path)
         set((state) => ({
             ...state,
             current_location: [ ...new_path.split("/") ]
@@ -80,6 +81,7 @@ export const app = create<Application>((set, get) =>({
     get_contents: async () => {
         const path_string = get().current_location.join("/")
         let result = await setContents(path_string)
+        console.log(path_string + " ", result)
 
         result = result.map(entry => {
             if (entry.permissions.at(0) === "l") {

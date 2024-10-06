@@ -43,7 +43,7 @@ export const myComputerComponent = (): MyComputerComponent[] => {
         {
             name: "Trash",
             icon: NavbarIcons.TrashIcon,
-            path: dir + "/Trash"
+            path: dir + "/.local/share/Trash/files"
         }
     ]
-}
+}   

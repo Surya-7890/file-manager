@@ -11,6 +11,7 @@ export default function App() {
 
     // for debugging purposes
     const contents = application(state => state.contents)
+    const location = application(state => state.current_location)
 
     useEffect(() => {
         if (dir === "") {
@@ -22,6 +23,10 @@ export default function App() {
     useEffect(() => {
         console.table(contents)
     }, [ contents.length ])
+
+    useEffect(() => {
+        console.log(location.join("/"))
+    }, [ location.length ])
 
 
     return (
