@@ -46,4 +46,4 @@ export const myComputerComponent = (): MyComputerComponent[] => {
             path: dir + "/.local/share/Trash/files"
         }
     ]
-}   
+}

@@ -28,9 +28,12 @@ export default function App() {
         console.log(location.join("/"))
     }, [ location.length ])
 
+    const handleRightClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+        e.preventDefault()
+    }
 
     return (
-        <div className="h-screen w-screen bg-[#2E2E2E] text-white">
+        <div className="h-screen w-screen bg-[#2E2E2E] text-white"  onContextMenu={handleRightClick}>
             <Historybar/>
             <div className="flex h-[90%] w-full">
                 <Navbar/>
