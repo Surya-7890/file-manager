@@ -1,4 +1,4 @@
-# README
+<!-- # README
 
 ## About
 
@@ -16,4 +16,49 @@ to this in your browser, and you can call your Go code from devtools.
 
 ## Building
 
-To build a redistributable, production mode package, use `wails build`.
+To build a redistributable, production mode package, use `wails build`. -->
+
+### Quick Note
+
+This project is initially focused on development for Linux environment.
+
+# Gettting Started
+
+The first step would be to install wails. Run the following command to install wails.
+
+```bash
+go install github.com/wailsapp/wails/v2/cmd/wails@latest
+```
+
+Please verify that you have Go 1.18+ installed
+
+## System Check
+
+Run the following command to verify if you have the correct dependencies installed. 
+
+If not, it will advise on what is missing and help on how to rectify any problems.
+
+```bash
+wails doctor
+```
+
+## Cloning and Starting Development
+
+```bash
+git clone https://github.com/Surya-7890/file-manager.git file-manager
+```
+
+```bash
+cd file-manager/
+go mod tidy
+```
+
+```bash
+cd frontend
+npm install
+```
+
+```bash
+cd ../
+wails dev
+```
