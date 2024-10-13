@@ -6,6 +6,10 @@ export function ChangeDirectory(arg1) {
   return window['go']['app']['Application']['ChangeDirectory'](arg1);
 }
 
+export function CreateFolder(arg1) {
+  return window['go']['app']['Application']['CreateFolder'](arg1);
+}
+
 export function GetInitialData() {
   return window['go']['app']['Application']['GetInitialData']();
 }

@@ -15,10 +15,12 @@ export default function FiModule({ item }: { item: FILE }) {
           ></span>
         </div>
       ) : (
-        <img
-          src="src/assets/images/folder_icon.png"
-          className="cursor-pointer h-full"
-        />
+        <div>
+          <img
+            src="src/assets/images/folder_icon.png"
+            className="cursor-pointer h-full"
+          />
+        </div>
       )}
       <div className="text-center text-sm">{item.name.substr(0, 10)}</div>
     </div>
