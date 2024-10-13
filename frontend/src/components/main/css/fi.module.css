@@ -1,0 +1,8349 @@
+.icon {
+	font-family: 'fi';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+}
+
+[class^="folder-fi"]:before {
+    font-family: "fi";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+}
+
+[class^="file-fi"]:before {
+    font-family: "fi";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+}
+
+
+	.file-fi-openoffice-medium-maroon:before {
+		content: "\e9e4";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-fossil-medium-cyan:before {
+		content: "\ead6";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-tag-medium-green:before {
+		content: "\f015";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-test-coffee-medium-maroon:before {
+		content: "\ea62";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-test-ts-light-blue:before {
+		content: "\ea69";
+		color: #9dc0ce;
+		font-size: 121%;
+	}
+			
+	.file-fi-modula2-medium-green:before {
+		content: "\e996";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-eslint-medium-purple:before {
+		content: "\ea0f";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-modelica-medium-red:before {
+		content: "\eaff";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-toml-medium-green:before {
+		content: "\1f143";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-prettier-medium-cyan:before {
+		content: "\eaa1";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-js-medium-yellow:before {
+		content: "\ea64";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-postcss-medium-orange:before {
+		content: "\e910";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-devicetree-medium-orange:before {
+		content: "\ea57";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-pascal-medium-red:before {
+		content: "\e92a";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-keynote-dark-blue:before {
+		content: "\e9e5";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-mirah-medium-blue:before {
+		content: "\e995";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-glade-medium-green:before {
+		content: "\e938";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-source-medium-red:before {
+		content: "\eb82";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-1c-medium-red:before {
+		content: "\a5ea";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-drone-medium-cyan:before {
+		content: "\ea3d";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-ruby-medium-red:before {
+		content: "\ea68";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-unibeautify-medium-orange:before {
+		content: "\eac4";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-apl-dark-cyan:before {
+		content: "\234b";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-tex-medium-orange:before {
+		content: "\e600";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-visio-dark-blue:before {
+		content: "\ea83";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-mermaid-medium-blue:before {
+		content: "\eb84";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-test-ts-medium-blue:before {
+		content: "\ea69";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-nimrod-medium-green:before {
+		content: "\e998";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-qt-medium-cyan:before {
+		content: "\eb00";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-nailpolish-medium-blue:before {
+		content: "\1f485";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-groovy-light-blue:before {
+		content: "\e904";
+		color: #9dc0ce;
+		font-size: 121%;
+	}
+			
+	.file-fi-excel-dark-cyan:before {
+		content: "\e9ee";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-xpages-dark-blue:before {
+		content: "\e9c5";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-react-medium-blue:before {
+		content: "\ea67";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-webpack-medium-blue:before {
+		content: "\ea61";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-kivy-dark-maroon:before {
+		content: "\e901";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-maya-dark-cyan:before {
+		content: "\e9f6";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-blender-medium-orange:before {
+		content: "\e9fa";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-gf-medium-red:before {
+		content: "\e978";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-wix-medium-maroon:before {
+		content: "\eab0";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-awk-medium-cyan:before {
+		content: "\1f427";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-mocha-medium-maroon:before {
+		content: "\26fe";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-test-go-medium-cyan:before {
+		content: "\eb0f";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-remark-dark-green:before {
+		content: "\eb1d";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-js-medium-blue:before {
+		content: "\ea64";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-tex-medium-red:before {
+		content: "\e600";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-unibeautify-dark-cyan:before {
+		content: "\eac4";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-emacs-medium-purple:before {
+		content: "\e926";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-scrutinizer-dark-blue:before {
+		content: "\e9d4";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-sequelize-medium-blue:before {
+		content: "\ea2f";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-gnuplot-medium-red:before {
+		content: "\1f4c8";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-openvms-medium-blue:before {
+		content: "\eac6";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-labview-dark-blue:before {
+		content: "\e98a";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-php-dark-blue:before {
+		content: "\f147";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-electron-dark-cyan:before {
+		content: "\ea27";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-test-hs-medium-purple:before {
+		content: "\eb10";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-velocity-dark-blue:before {
+		content: "\2b94";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-test-js-medium-green:before {
+		content: "\ea64";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-docz-medium-yellow:before {
+		content: "\eb21";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-slash-dark-blue:before {
+		content: "\e9a6";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-parrot-dark-blue:before {
+		content: "\e9bb";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-husky-medium-red:before {
+		content: "\1f436";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-powerpoint-medium-orange:before {
+		content: "\e9ec";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-sf-light-orange:before {
+		content: "\e9db";
+		color: #e1ad83;
+		font-size: 107%;
+	}
+			
+	.file-fi-nvidia-medium-green:before {
+		content: "\e95d";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-medium-purple:before {
+		content: "\f0c8";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-fi-postscript-medium-red:before {
+		content: "\e955";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-finder-dark-blue:before {
+		content: "\e9e9";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-sqlite-dark-blue:before {
+		content: "\e9dd";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-php-medium-blue:before {
+		content: "\f147";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-opengl-dark-cyan:before {
+		content: "\ea7a";
+		color: #4d9085;
+		font-size: 129%;
+	}
+			
+	.file-fi-asm-intel-dark-blue:before {
+		content: "\eb4e";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-textmate-medium-orange:before {
+		content: "\2122";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-fossa-medium-blue:before {
+		content: "\eac3";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-moho-medium-purple:before {
+		content: "\eaee";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-lua-dark-blue:before {
+		content: "\e91b";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-nextflow-medium-green:before {
+		content: "\eaa5";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-tex-medium-blue:before {
+		content: "\e600";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-progress-medium-green:before {
+		content: "\eadc";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-moho-medium-maroon:before {
+		content: "\eaee";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-neon-medium-grey:before {
+		content: "\eb8e";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-netlogo-medium-red:before {
+		content: "\e99c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-fortran-medium-blue:before {
+		content: "\e90a";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-lex-medium-cyan:before {
+		content: "\101ef";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-tt-medium-blue:before {
+		content: "T";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-xojo-dark-cyan:before {
+		content: "\e9af";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-storyist-medium-blue:before {
+		content: "\e9ef";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-fortran-dark-cyan:before {
+		content: "\e90a";
+		color: #4d9085;
+		font-size: 100%;
+	}
+			
+	.file-fi-matlab-dark-purple:before {
+		content: "\e991";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-vmware-medium-green:before {
+		content: "\ea49";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-cakephp-medium-red:before {
+		content: "\ea43";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-mediawiki-medium-yellow:before {
+		content: "\e954";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-tex-medium-purple:before {
+		content: "\e600";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-medium-yellow:before {
+		content: "\f07c";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-fortran-medium-red:before {
+		content: "\e90a";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-arduino-dark-cyan:before {
+		content: "\e930";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-manpage-dark-green:before {
+		content: "\e936";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-ruby-medium-red:before {
+		content: "\eb17";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-zork-dark-cyan:before {
+		content: "\1b6";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-bison-medium-red:before {
+		content: "\1f402";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-casc-medium-orange:before {
+		content: "\ebb6";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-patch-medium-green:before {
+		content: "\e961";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-react-medium-blue:before {
+		content: "\f100";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-visio-medium-green:before {
+		content: "\ea83";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-doge-medium-yellow:before {
+		content: "\e946";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-perl6-light-blue:before {
+		content: "\e96c";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-wix-medium-orange:before {
+		content: "\eab0";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-sage-dark-blue:before {
+		content: "\e9ab";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-snyk-dark-purple:before {
+		content: "\ea1c";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-rdata-medium-maroon:before {
+		content: "\eb49";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-medium-yellow:before {
+		content: "\f0c8";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-unibeautify-medium-yellow:before {
+		content: "\eac4";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-cp-dark-red:before {
+		content: "\e942";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-docz-medium-orange:before {
+		content: "\eb21";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-lasso-medium-purple:before {
+		content: "\e98c";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-sophia-dark-pink:before {
+		content: "\eb72";
+		color: #cc00a3;
+		font-size: 121%;
+	}
+			
+	.file-fi-avro-medium-blue:before {
+		content: "\eaa3";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-pascal-dark-purple:before {
+		content: "\e92a";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-mathematica-medium-maroon:before {
+		content: "\e990";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-sublime-medium-orange:before {
+		content: "\e986";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-vertex-medium-blue:before {
+		content: "\ea79";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-asm-arm-medium-blue:before {
+		content: "\eb51";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-rdata-medium-yellow:before {
+		content: "\eb49";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-json-medium-cyan:before {
+		content: "\eabe";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-dark-blue:before {
+		content: "\f0c8";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-lisp-medium-blue:before {
+		content: "\e908";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-stylelint-dark-blue:before {
+		content: "\e93d";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-tern-medium-blue:before {
+		content: "\1f54a";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-emacs-dark-purple:before {
+		content: "\e926";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-lark-dark-blue:before {
+		content: "\1316b";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-excel-dark-green:before {
+		content: "\e9ee";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-bazel-dark-blue:before {
+		content: "\ead2";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-nwscript-dark-red:before {
+		content: "\23ff";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-openoffice-dark-pink:before {
+		content: "\e9e4";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-mirc-medium-red:before {
+		content: "\eb3a";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-xojo-dark-green:before {
+		content: "\e9af";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-eagle-medium-red:before {
+		content: "\e965";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-idris-medium-maroon:before {
+		content: "\e983";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-neo4j-medium-blue:before {
+		content: "\eab3";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-tex-medium-green:before {
+		content: "\e600";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-outlook-dark-red:before {
+		content: "\eada";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-r-medium-blue:before {
+		content: "\e905";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-pascal-medium-blue:before {
+		content: "\e92a";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-antlr-medium-red:before {
+		content: "\e92c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-ocaml-dark-red:before {
+		content: "\e91a";
+		color: #be2f31;
+		font-size: 100%;
+	}
+			
+	.file-fi-mako-dark-blue:before {
+		content: "\e98f";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-perl6-dark-pink:before {
+		content: "\e96c";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-sketchup-mk-medium-red:before {
+		content: "\ea7e";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-totvs-dark-green:before {
+		content: "\eb34";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-tex-medium-maroon:before {
+		content: "\e600";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-lasso-dark-blue:before {
+		content: "\e98c";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-numpy-dark-cyan:before {
+		content: "\eba8";
+		color: #4d9085;
+		font-size: 100%;
+	}
+			
+	.file-fi-matlab-medium-yellow:before {
+		content: "\e991";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-postscript-medium-green:before {
+		content: "\e955";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-squarespace-dark-purple:before {
+		content: "\ea5e";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-medium-green:before {
+		content: "\f0c8";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-bnf-dark-yellow:before {
+		content: "\2a74";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-fi-rebol-dark-blue:before {
+		content: "\e9ae";
+		color: #46788d;
+		font-size: 93%;
+	}
+			
+	.file-fi-chapel-medium-green:before {
+		content: "\e950";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-ff-medium-orange:before {
+		content: "\fb00";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-powerbuilder-medium-red:before {
+		content: "\ea14";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-gosu-medium-blue:before {
+		content: "\e97a";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-openoffice-dark-red:before {
+		content: "\e9e4";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-rust-medium-maroon:before {
+		content: "\eb11";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-drawio-medium-orange:before {
+		content: "\eb93";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-mediawiki-medium-orange:before {
+		content: "\e954";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-zork-dark-green:before {
+		content: "\1b6";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-macaulay2-light-cyan:before {
+		content: "\2644";
+		color: #a7d0c9;
+		font-size: 121%;
+	}
+			
+	.file-fi-lilypond-dark-green:before {
+		content: "\1f4ae";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-gap-dark-blue:before {
+		content: "\e971";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-shuriken-dark-cyan:before {
+		content: "\272b";
+		color: #4d9085;
+		font-size: 100%;
+	}
+			
+	.file-fi-lein:before {
+		content: "\f105";
+		color: black;
+		font-size: 114%;
+	}
+			
+	.file-fi-cloudfoundry-medium-blue:before {
+		content: "\ead0";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-virtualbox-medium-blue:before {
+		content: "\ea3e";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-powerbuilder-medium-blue:before {
+		content: "\ea14";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-sqf-dark-maroon:before {
+		content: "\e9a5";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-video-medium-blue:before {
+		content: "\f057";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-model-medium-purple:before {
+		content: "\e9e8";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-omnigraffle-medium-green:before {
+		content: "\ebaf";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-galen-medium-cyan:before {
+		content: "\ead8";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-sigils-dark-red:before {
+		content: "\1f764";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-blender-dark-orange:before {
+		content: "\e9fa";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-coreldraw-medium-green:before {
+		content: "\ea90";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-animestudio-medium-maroon:before {
+		content: "\eaed";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-pod-dark-blue:before {
+		content: "\ea84";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-reasonstudios-medium-orange:before {
+		content: "\eb44";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-hashicorp-medium-cyan:before {
+		content: "\e97e";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-medium-blue:before {
+		content: "\f07c";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-gltf-medium-green:before {
+		content: "\eaa7";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-zimpl-medium-orange:before {
+		content: "\e9c8";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-mustache-medium-blue:before {
+		content: "\e60f";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-rst-dark-blue:before {
+		content: "\e9cc";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-affinity-medium-pink:before {
+		content: "\eabb";
+		color: #ff00cc;
+		font-size: 107%;
+	}
+			
+	.file-fi-shopify-medium-green:before {
+		content: "\e9cf";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-mdx-medium-orange:before {
+		content: "\eab7";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-model-medium-red:before {
+		content: "\e9e8";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-hg-medium-cyan:before {
+		content: "\263f";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-matlab-dark-maroon:before {
+		content: "\e991";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-animestudio-medium-purple:before {
+		content: "\eaed";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-premiere-dark-purple:before {
+		content: "\e9f5";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-diff-medium-red:before {
+		content: "\e960";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-animestudio-medium-orange:before {
+		content: "\eaed";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-figma-medium-red:before {
+		content: "\ebba";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-tag-medium-cyan:before {
+		content: "\f015";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-indesign-dark-pink:before {
+		content: "\e9f4";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-medium-red:before {
+		content: "\f0c8";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-asm-medium-orange:before {
+		content: "\eb4f";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-ls-dark-blue:before {
+		content: "\e914";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-gimp-medium-maroon:before {
+		content: "\ea88";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-monkey-medium-maroon:before {
+		content: "\e997";
+		color: #8f5536;
+		font-size: 129%;
+	}
+			
+	.file-fi-as-dark-red:before {
+		content: "\e92e";
+		color: #be2f31;
+		font-size: 100%;
+	}
+			
+	.file-fi-bem-medium-maroon:before {
+		content: "\ea59";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-vertex-medium-red:before {
+		content: "\ea79";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-model-dark-red:before {
+		content: "\e9e8";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-racket-dark-blue:before {
+		content: "\e9b1";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-bison-dark-green:before {
+		content: "\1f402";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-clarion-medium-orange:before {
+		content: "\e952";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-matlab-medium-cyan:before {
+		content: "\e991";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-rdata-medium-red:before {
+		content: "\eb49";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-nailpolish-medium-yellow:before {
+		content: "\1f485";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-templeos-medium-orange:before {
+		content: "\2696";
+		color: #d28445;
+		font-size: 129%;
+	}
+			
+	.file-fi-model-medium-blue:before {
+		content: "\e9e8";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-postscript-dark-orange:before {
+		content: "\e955";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-ls-medium-blue:before {
+		content: "\e914";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-access-dark-purple:before {
+		content: "\e9ea";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-ae-dark-purple:before {
+		content: "\e9f3";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-yang-medium-red:before {
+		content: "\262f";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-watchman-medium-blue:before {
+		content: "\ea4f";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-dark-green:before {
+		content: "\eaaa";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-animestudio-medium-blue:before {
+		content: "\eaed";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-minecraft-light-green:before {
+		content: "\e9dc";
+		color: #b2c38b;
+		font-size: 107%;
+	}
+			
+	.file-fi-jscpd-medium-grey:before {
+		content: "\eb95";
+		color: #7f7f7f;
+		font-size: 121%;
+	}
+			
+	.file-fi-warcraft3-medium-red:before {
+		content: "\2162";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-lektor-dark-purple:before {
+		content: "\eab9";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-asciidoctor-medium-blue:before {
+		content: "\eac7";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-graphql-medium-purple:before {
+		content: "\e97c";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-scilab-dark-purple:before {
+		content: "\e9a9";
+		color: #825078;
+		font-size: 129%;
+	}
+			
+	.file-fi-wurst-medium-maroon:before {
+		content: "\1f32d";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-xtend-dark-purple:before {
+		content: "\e9c6";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-inno-dark-blue:before {
+		content: "\e985";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-cdf-medium-red:before {
+		content: "\eb46";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-em-medium-red:before {
+		content: "\e968";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-mathematica-dark-red:before {
+		content: "\e990";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-graphviz-medium-orange:before {
+		content: "\e97d";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-corel-medium-blue:before {
+		content: "\ea91";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-scheme-medium-purple:before {
+		content: "\03bb";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-lisp-dark-purple:before {
+		content: "\e908";
+		color: #825078;
+		font-size: 121%;
+	}
+			
+	.file-fi-isabelle-dark-red:before {
+		content: "\e945";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-oxygene-medium-cyan:before {
+		content: "\e9bf";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-nant-medium-orange:before {
+		content: "\e9e1";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-khronos-medium-orange:before {
+		content: "\e9f8";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-emacs-medium-red:before {
+		content: "\e926";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-rexx-medium-blue:before {
+		content: "\ea16";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-wget-medium-maroon:before {
+		content: "\eb38";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-xojo-medium-blue:before {
+		content: "\e9af";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-kusto-medium-blue:before {
+		content: "\eb9a";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-dark-yellow:before {
+		content: "\f0c8";
+		color: #ee9e2e;
+		font-size: 100%;
+	}
+			
+	.file-fi-scheme-medium-blue:before {
+		content: "\03bb";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-nsri-alt-medium-green:before {
+		content: "\eb2b";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-nunjucks-dark-green:before {
+		content: "\e953";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-kx-medium-blue:before {
+		content: "\ea9b";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-restql-dark-blue:before {
+		content: "\ebb0";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-cobol-medium-blue:before {
+		content: "\ea44";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-houdini-medium-orange:before {
+		content: "\1f300";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-scheme-medium-yellow:before {
+		content: "\03bb";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-max-dark-purple:before {
+		content: "\e993";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-outlook-dark-cyan:before {
+		content: "\eada";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-stata-light-blue:before {
+		content: "\e9a3";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-fortran-medium-green:before {
+		content: "\e90a";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-openoffice-medium-pink:before {
+		content: "\e9e4";
+		color: #ff00cc;
+		font-size: 107%;
+	}
+			
+	.file-fi-visio-medium-blue:before {
+		content: "\ea83";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-yaml-medium-orange:before {
+		content: "y";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-manpage-dark-maroon:before {
+		content: "\e936";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-husky-medium-orange:before {
+		content: "\1f436";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-excel-medium-red:before {
+		content: "\e9ee";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-word-dark-blue:before {
+		content: "\e9ed";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-bnf-medium-red:before {
+		content: "\2a74";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-graphql-medium-pink:before {
+		content: "\e97c";
+		color: #ff00cc;
+		font-size: 107%;
+	}
+			
+	.file-fi-as-medium-red:before {
+		content: "\e92e";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-delphi-medium-blue:before {
+		content: "\ea40";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-scad-medium-yellow:before {
+		content: "\e911";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-purescript-dark-purple:before {
+		content: "\e9b2";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-bibtex-medium-yellow:before {
+		content: "\e601";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-laravel-medium-orange:before {
+		content: "\e63f";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-cirru-medium-pink:before {
+		content: "\e951";
+		color: #ff00cc;
+		font-size: 107%;
+	}
+			
+	.file-fi-xojo-medium-red:before {
+		content: "\e9af";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-babel-medium-yellow:before {
+		content: "\e91f";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-winui-medium-red:before {
+		content: "\ebb7";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-ftr-medium-red:before {
+		content: "\2933";
+		color: #ac4142;
+		font-size: 129%;
+	}
+			
+	.file-fi-freemarker-medium-blue:before {
+		content: "\e970";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-gauss-medium-orange:before {
+		content: "\eb7e";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-genshi-medium-red:before {
+		content: "\e976";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-outlook-dark-blue:before {
+		content: "\eada";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-powerbuilder-dark-blue:before {
+		content: "\ea14";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-lisp-medium-purple:before {
+		content: "\e908";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-scilab-dark-blue:before {
+		content: "\e9a9";
+		color: #46788d;
+		font-size: 129%;
+	}
+			
+	.file-fi-textmate-dark-purple:before {
+		content: "\2122";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-factor-medium-orange:before {
+		content: "\e96a";
+		color: #d28445;
+		font-size: 129%;
+	}
+			
+	.file-fi-vala-medium-purple:before {
+		content: "\1d4b1";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-purebasic-medium-red:before {
+		content: "\01b5";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-tcl-dark-blue:before {
+		content: "\e956";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-flux-medium-blue:before {
+		content: "\e969";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-lookml-medium-purple:before {
+		content: "\e98e";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-floobits-medium-red:before {
+		content: "\ead5";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-wix-medium-red:before {
+		content: "\eab0";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-dylib-medium-cyan:before {
+		content: "\ea15";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-openoffice-dark-blue:before {
+		content: "\e9e4";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-perl6-dark-blue:before {
+		content: "\e96c";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-animestudio-medium-yellow:before {
+		content: "\eaed";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-medium-red:before {
+		content: "\f07c";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-shuriken-medium-blue:before {
+		content: "\272b";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-test-generic-dark-green:before {
+		content: "\ea63";
+		color: #66783e;
+		font-size: 121%;
+	}
+			
+	.file-fi-dashboard-medium-blue:before {
+		content: "\f07d";
+		color: #6a9fb5;
+		font-size: 93%;
+	}
+			
+	.file-fi-config-python-dark-blue:before {
+		content: "\eb15";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-reasonstudios-medium-yellow:before {
+		content: "\eb44";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-unreal-dark-blue:before {
+		content: "u";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-minizinc-dark-blue:before {
+		content: "\ea53";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-kicad-medium-red:before {
+		content: "\ea4c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-asm-zilog-medium-blue:before {
+		content: "\eb47";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-tsx-light-blue:before {
+		content: "\e9e7";
+		color: #9dc0ce;
+		font-size: 100%;
+	}
+			
+	.file-fi-access-dark-red:before {
+		content: "\e9ea";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-textmate-medium-pink:before {
+		content: "\2122";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-fi-infopath-dark-purple:before {
+		content: "\ea35";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-1c-alt-medium-red:before {
+		content: "\ea28";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-peg-medium-red:before {
+		content: "\ea74";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-powershell-dark-blue:before {
+		content: "\e9da";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-dashboard-medium-orange:before {
+		content: "\f07d";
+		color: #d28445;
+		font-size: 93%;
+	}
+			
+	.file-fi-amx-medium-blue:before {
+		content: "\e99b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-medium-green:before {
+		content: "\f07c";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-visio-dark-red:before {
+		content: "\ea83";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-openvms-medium-orange:before {
+		content: "\eac6";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-openoffice-medium-blue:before {
+		content: "\e9e4";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-bitmap-dark-red:before {
+		content: "\eaab";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-pointwise-medium-blue:before {
+		content: "\e977";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-doclets-light-green:before {
+		content: "\ea3f";
+		color: #b2c38b;
+		font-size: 107%;
+	}
+			
+	.file-fi-dyalog-medium-red:before {
+		content: "\e90c";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-source-medium-cyan:before {
+		content: "\eb82";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-yorick-medium-orange:before {
+		content: "\1f480";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-buck-medium-blue:before {
+		content: "\ea46";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-cake-medium-yellow:before {
+		content: "\e9e3";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-lsl-dark-cyan:before {
+		content: "\e98b";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-powershell-dark-purple:before {
+		content: "\e9da";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-lua-dark-red:before {
+		content: "\e91b";
+		color: #be2f31;
+		font-size: 100%;
+	}
+			
+	.file-fi-brain-dark-pink:before {
+		content: "\e93a";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-medium-cyan:before {
+		content: "\e9e8";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-storybook-medium-blue:before {
+		content: "\eadf";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-kicad-dark-green:before {
+		content: "\ea4c";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-ttcn3-medium-blue:before {
+		content: "\2476";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-matlab-dark-red:before {
+		content: "\e991";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-affectscript-medium-pink:before {
+		content: "\eb2c";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-fi-flux-dark-blue:before {
+		content: "\e969";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-parrot-dark-green:before {
+		content: "\e9bb";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-zork-dark-blue:before {
+		content: "\1b6";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-dna-medium-orange:before {
+		content: "\2624";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-bluespec-dark-blue:before {
+		content: "\e93c";
+		color: #46788d;
+		font-size: 93%;
+	}
+			
+	.file-fi-jake-medium-yellow:before {
+		content: "\e948";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-logtalk-medium-red:before {
+		content: "\e98d";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-stylable-medium-green:before {
+		content: "\eae0";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-numpy-medium-cyan:before {
+		content: "\eba8";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-sqlite-dark-cyan:before {
+		content: "\e9dd";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-openoffice-dark-orange:before {
+		content: "\e9e4";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-codacy-dark-blue:before {
+		content: "\ea8b";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-maya-dark-blue:before {
+		content: "\e9f6";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-igorpro-dark-red:before {
+		content: "\e980";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-rebol-dark-green:before {
+		content: "\e9ae";
+		color: #66783e;
+		font-size: 93%;
+	}
+			
+	.file-fi-perl6-dark-purple:before {
+		content: "\e96c";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-asm-dark-green:before {
+		content: "\eb4f";
+		color: #66783e;
+		font-size: 121%;
+	}
+			
+	.file-fi-publisher-dark-cyan:before {
+		content: "\eadd";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-zbrush-dark-purple:before {
+		content: "\e9f2";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-blitzbasic-medium-green:before {
+		content: "\eba5";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-ox-medium-blue:before {
+		content: "\e9a1";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-video-medium-cyan:before {
+		content: "\f057";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-wasm-medium-blue:before {
+		content: "\ea70";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-dark-blue:before {
+		content: "\eaaa";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-ae-dark-pink:before {
+		content: "\e9f3";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-access-light-maroon:before {
+		content: "\e9ea";
+		color: #be7953;
+		font-size: 107%;
+	}
+			
+	.file-fi-max-medium-purple:before {
+		content: "\e993";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-pickle-dark-cyan:before {
+		content: "\e9c4";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-io-dark-purple:before {
+		content: "\e981";
+		color: #825078;
+		font-size: 93%;
+	}
+			
+	.file-fi-xojo-dark-purple:before {
+		content: "\e9af";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-editorconfig-medium-orange:before {
+		content: "\ea1b";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-xojo-dark-blue:before {
+		content: "\e9af";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-fauna-dark-blue:before {
+		content: "\13168";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-dna-medium-purple:before {
+		content: "\2624";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-pascal-dark-red:before {
+		content: "\e92a";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-4d-dark-blue:before {
+		content: "\eb73";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-agda-dark-cyan:before {
+		content: "\1315a";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-llvm-medium-yellow:before {
+		content: "\e91d";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-metal-dark-cyan:before {
+		content: "M";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-ox-medium-green:before {
+		content: "\e9a1";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-source-medium-blue:before {
+		content: "\eb82";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-fexl-medium-cyan:before {
+		content: "\eb20";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-visio-dark-purple:before {
+		content: "\ea83";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-visio-medium-red:before {
+		content: "\ea83";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-dark-cyan:before {
+		content: "\e9e8";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-futhark-dark-maroon:before {
+		content: "\eb77";
+		color: #7c4426;
+		font-size: 129%;
+	}
+			
+	.file-fi-pike-dark-cyan:before {
+		content: "\e9b9";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-ensime-medium-red:before {
+		content: "\ead4";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-eq-medium-orange:before {
+		content: "\ea0a";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-hack-medium-yellow:before {
+		content: "\e9ce";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-indesign-medium-purple:before {
+		content: "\e9f4";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-dark-red:before {
+		content: "\eaaa";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-minecraft-dark-green:before {
+		content: "\e9dc";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-franca-medium-orange:before {
+		content: "\ea56";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-verilog-medium-red:before {
+		content: "\e949";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-excel-dark-maroon:before {
+		content: "\e9ee";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-bikeshed-medium-red:before {
+		content: "\1f6b2";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-curl-dark-blue:before {
+		content: "\002F";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-storybook-medium-orange:before {
+		content: "\eadf";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-winui-medium-blue:before {
+		content: "\ebb7";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-api-medium-blue:before {
+		content: "\e92d";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-pug-medium-red:before {
+		content: "\ea13";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-vhdl-medium-purple:before {
+		content: "\e9aa";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-zork-medium-red:before {
+		content: "\1b6";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-tt-medium-purple:before {
+		content: "T";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-noon-dark-grey:before {
+		content: "\eb33";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-onenote-dark-purple:before {
+		content: "\e9eb";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-apple-medium-purple:before {
+		content: "\e925";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-eclipse-lang-medium-blue:before {
+		content: "\eb80";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-dna-medium-blue:before {
+		content: "\2624";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-bnf-medium-grey:before {
+		content: "\2a74";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-sas-medium-blue:before {
+		content: "\e95a";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-blitzbasic-medium-cyan:before {
+		content: "\eba5";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-jscpd-medium-cyan:before {
+		content: "\eb95";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-vmware-medium-blue:before {
+		content: "\ea49";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-ts-medium-blue:before {
+		content: "\2a6";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-stata-medium-cyan:before {
+		content: "\e9a3";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-excel-medium-green:before {
+		content: "\e9ee";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-tcl-medium-orange:before {
+		content: "\e956";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-keynote-medium-blue:before {
+		content: "\e9e5";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-openoffice-medium-red:before {
+		content: "\e9e4";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-bison-medium-green:before {
+		content: "\1f402";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-yara-medium-red:before {
+		content: "\ea9f";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-bazaar-medium-yellow:before {
+		content: "\eacd";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-chuck-medium-green:before {
+		content: "\e943";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-godot-medium-red:before {
+		content: "\e974";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-xamarin-light-blue:before {
+		content: "\ea77";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-awk-medium-red:before {
+		content: "\1f427";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-dafny-medium-yellow:before {
+		content: "\eb8c";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-sysverilog-medium-blue:before {
+		content: "\e9c3";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-fossa-dark-blue:before {
+		content: "\eac3";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-bibtex-medium-red:before {
+		content: "\e601";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-cljs-medium-blue:before {
+		content: "\f104";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-cl-medium-orange:before {
+		content: "\e972";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-lex-dark-red:before {
+		content: "\101ef";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-word-dark-cyan:before {
+		content: "\e9ed";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-sqf-dark-red:before {
+		content: "\e9a5";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-ocaml-dark-green:before {
+		content: "\e91a";
+		color: #66783e;
+		font-size: 100%;
+	}
+			
+	.file-fi-stylus-medium-green:before {
+		content: "s";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-wix-dark-purple:before {
+		content: "\eab0";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-zig-medium-orange:before {
+		content: "z";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-go-medium-blue:before {
+		content: "\eaae";
+		color: #6a9fb5;
+		font-size: 129%;
+	}
+			
+	.file-fi-miranda-medium-red:before {
+		content: "\ea52";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-robot-medium-cyan:before {
+		content: "\eb0d";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-powerbuilder-medium-orange:before {
+		content: "\ea14";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-excel-dark-red:before {
+		content: "\e9ee";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-msproject-medium-green:before {
+		content: "\eae8";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-totvs-medium-green:before {
+		content: "\eb34";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-cython-medium-orange:before {
+		content: "\e963";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-postcss-dark-red:before {
+		content: "\e910";
+		color: #be2f31;
+		font-size: 100%;
+	}
+			
+	.file-fi-rdata-medium-orange:before {
+		content: "\eb49";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-medium-orange:before {
+		content: "\e9e8";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-nsis-dark-cyan:before {
+		content: "\ea1e";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-shen-dark-cyan:before {
+		content: "\e9a7";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-ink-dark-blue:before {
+		content: "\eace";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-pascal-dark-blue:before {
+		content: "\e92a";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-sentry-medium-red:before {
+		content: "\eb1c";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-video-dark-blue:before {
+		content: "\f057";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-gml-medium-green:before {
+		content: "\e975";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-qt-dark-green:before {
+		content: "\eb00";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-husky-medium-blue:before {
+		content: "\1f436";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-processing-dark-blue:before {
+		content: "\e9a0";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-v-medium-blue:before {
+		content: "v";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-asm-agc-dark-blue:before {
+		content: "\eb53";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-rascal-medium-yellow:before {
+		content: "\ea24";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-video-medium-purple:before {
+		content: "\f057";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-fi-phalcon-medium-cyan:before {
+		content: "\e94a";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-caffe-medium-maroon:before {
+		content: "\ea9a";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-dyalog-medium-orange:before {
+		content: "\e90c";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-spacengine-medium-blue:before {
+		content: "\29cf";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-sysverilog-medium-cyan:before {
+		content: "\e9c3";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-cf-medium-cyan:before {
+		content: "\e929";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-krl-medium-blue:before {
+		content: "\e988";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-kotlin-dark-blue:before {
+		content: "\e989";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-lisp-medium-red:before {
+		content: "\e908";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-font-bitmap-dark-blue:before {
+		content: "\eaab";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-creole-medium-blue:before {
+		content: "\e95e";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-haml-medium-red:before {
+		content: "\f15b";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-sqlite-medium-blue:before {
+		content: "\e9dd";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-1c-dark-red:before {
+		content: "\a5ea";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-vhdl-dark-red:before {
+		content: "\e9aa";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-idris-dark-red:before {
+		content: "\e983";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-urweb-dark-blue:before {
+		content: "\e9ba";
+		color: #46788d;
+		font-size: 129%;
+	}
+			
+	.file-fi-video-medium-red:before {
+		content: "\f057";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-gnu-medium-red:before {
+		content: "\e679";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-ai-medium-yellow:before {
+		content: "\e6b4";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-kicad-medium-cyan:before {
+		content: "\ea4c";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-jolie-dark-pink:before {
+		content: "\ea75";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-cheetah3d-medium-yellow:before {
+		content: "\1f406";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-font-bitmap-medium-orange:before {
+		content: "\eaab";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-remark-dark-red:before {
+		content: "\eb1d";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-kibo-dark-orange:before {
+		content: "\eba9";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-modula3-dark-green:before {
+		content: "\2778";
+		color: #66783e;
+		font-size: 121%;
+	}
+			
+	.file-fi-maya-dark-purple:before {
+		content: "\e9f6";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-inform7-medium-blue:before {
+		content: "\e984";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-dark-blue:before {
+		content: "\f07c";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-saltstack-medium-blue:before {
+		content: "\e915";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-haxe-medium-orange:before {
+		content: "\e907";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-dark-red:before {
+		content: "\f07c";
+		color: #be2f31;
+		font-size: 100%;
+	}
+			
+	.file-fi-ada-medium-blue:before {
+		content: "\e90b";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-tipe-medium-cyan:before {
+		content: "\eaa9";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-textmate-dark-blue:before {
+		content: "\2122";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-outlook-medium-blue:before {
+		content: "\eada";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-msproject-dark-green:before {
+		content: "\eae8";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-reason-medium-red:before {
+		content: "\ea1d";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-firebase-bolt-medium-yellow:before {
+		content: "\26A1";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-objj-dark-orange:before {
+		content: "\e99e";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-zbrush-medium-red:before {
+		content: "\e9f2";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-objj-dark-red:before {
+		content: "\e99e";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-bison-medium-cyan:before {
+		content: "\1f402";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-webvtt-dark-blue:before {
+		content: "\eb24";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-bosque-medium-green:before {
+		content: "\eb96";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-terraform-dark-purple:before {
+		content: "\e916";
+		color: #825078;
+		font-size: 100%;
+	}
+			
+	.file-fi-hy-dark-blue:before {
+		content: "\e97f";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-crystal-medium-cyan:before {
+		content: "\e902";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-yarn-dark-blue:before {
+		content: "\ea1a";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-junos-medium-cyan:before {
+		content: "\ea81";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-json-medium-blue:before {
+		content: "\eabe";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-sbt-dark-purple:before {
+		content: "\e9d2";
+		color: #825078;
+		font-size: 100%;
+	}
+			
+	.file-fi-ballerina-medium-cyan:before {
+		content: "\eac8";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-minecraft-medium-green:before {
+		content: "\e9dc";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-nuget-medium-green:before {
+		content: "\e9d9";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-asm-m68k-medium-blue:before {
+		content: "\eb4d";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-modula3-dark-blue:before {
+		content: "\2778";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-wolfram-dark-red:before {
+		content: "\1f43a";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-augeas-dark-orange:before {
+		content: "\e931";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-ndepend-medium-blue:before {
+		content: "\eab4";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-sqlite-dark-purple:before {
+		content: "\e9dd";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-openexr-medium-pink:before {
+		content: "\1f127";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-fi-linqpad-dark-pink:before {
+		content: "\1d6cc";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-maxscript-dark-blue:before {
+		content: "\e900";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-dashboard-medium-green:before {
+		content: "\f07d";
+		color: #90a959;
+		font-size: 93%;
+	}
+			
+	.file-fi-lightwave-medium-red:before {
+		content: "\e9fb";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-metapost-dark-green:before {
+		content: "\1d5ac";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-medium-red:before {
+		content: "\eaaa";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-cabal-medium-cyan:before {
+		content: "\e9c2";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-xojo-medium-green:before {
+		content: "\e9af";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-swagger-dark-green:before {
+		content: "\ea29";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-totvs-dark-blue:before {
+		content: "\eb34";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-clean-medium-cyan:before {
+		content: "\e95b";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-godot-dark-cyan:before {
+		content: "\e974";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-stata-light-cyan:before {
+		content: "\e9a3";
+		color: #a7d0c9;
+		font-size: 107%;
+	}
+			
+	.file-fi-powerpoint-dark-orange:before {
+		content: "\e9ec";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-riot-medium-red:before {
+		content: "\eb2e";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-medium-blue:before {
+		content: "\f0c8";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-kicad-medium-orange:before {
+		content: "\ea4c";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-sketchup-lo-medium-red:before {
+		content: "\ea7c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-lua-medium-purple:before {
+		content: "\e91b";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-fi-mapbox-medium-cyan:before {
+		content: "\e941";
+		color: #75b5aa;
+		font-size: 93%;
+	}
+			
+	.file-fi-angelscript-medium-blue:before {
+		content: "\ea5b";
+		color: #6a9fb5;
+		font-size: 129%;
+	}
+			
+	.file-fi-ff-dark-blue:before {
+		content: "\fb00";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-kicad-medium-green:before {
+		content: "\ea4c";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-lfe-dark-red:before {
+		content: "\e94c";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-nmap-dark-blue:before {
+		content: "\e94d";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-cuneiform-dark-blue:before {
+		content: "\eb76";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-tag-medium-blue:before {
+		content: "\f015";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-reasonstudios-dark-orange:before {
+		content: "\eb44";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-postcss-dark-pink:before {
+		content: "\e910";
+		color: #cc00a3;
+		font-size: 100%;
+	}
+			
+	.file-fi-mustache-medium-orange:before {
+		content: "\e60f";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-twine-medium-blue:before {
+		content: "\ea5d";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-haml-medium-yellow:before {
+		content: "\f15b";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-rspec-medium-red:before {
+		content: "\ea31";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-varnish-dark-blue:before {
+		content: "\e9b4";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-latino-medium-blue:before {
+		content: "\1f426";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-jinja-medium-red:before {
+		content: "\e944";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-nano-medium-blue:before {
+		content: "\ea76";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-gentoo-dark-cyan:before {
+		content: "\e96d";
+		color: #4d9085;
+		font-size: 100%;
+	}
+			
+	.file-fi-abif-medium-blue:before {
+		content: "\ea4e";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-bibtex-medium-green:before {
+		content: "\e601";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-vhdl-dark-purple:before {
+		content: "\e9aa";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-racket-medium-blue:before {
+		content: "\e9b1";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-mocha-light-maroon:before {
+		content: "\26fe";
+		color: #be7953;
+		font-size: 121%;
+	}
+			
+	.file-fi-electron-dark-blue:before {
+		content: "\ea27";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-virtualbox-dark-green:before {
+		content: "\ea3e";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-numpy-medium-orange:before {
+		content: "\eba8";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-csound-dark-orange:before {
+		content: "\e9f0";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-docker-dark-blue:before {
+		content: "\f106";
+		color: #46788d;
+		font-size: 129%;
+	}
+			
+	.file-fi-papyrus-medium-green:before {
+		content: "\e9bc";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-graphql-medium-red:before {
+		content: "\e97c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-dark-blue:before {
+		content: "\e9e8";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-vhdl-dark-blue:before {
+		content: "\e9aa";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-jsonnet-dark-blue:before {
+		content: "\eb1e";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-ocaml-dark-yellow:before {
+		content: "\e91a";
+		color: #ee9e2e;
+		font-size: 100%;
+	}
+			
+	.file-fi-stencil-medium-orange:before {
+		content: "\ea95";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-telegram-medium-blue:before {
+		content: "\2708";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-bnf-medium-yellow:before {
+		content: "\2a74";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-jest-medium-blue:before {
+		content: "\ea39";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-nwscript-medium-maroon:before {
+		content: "\23ff";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-gosu-dark-blue:before {
+		content: "\e97a";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-ahk-dark-purple:before {
+		content: "\e932";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-lisp-dark-red:before {
+		content: "\e908";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-vhdl-dark-green:before {
+		content: "\e9aa";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-ink-dark-purple:before {
+		content: "\eace";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-jison-medium-cyan:before {
+		content: "\ea55";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-excel-medium-maroon:before {
+		content: "\e9ee";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-serverless-medium-red:before {
+		content: "\eab8";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-bithound-medium-red:before {
+		content: "\ea2a";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-puppet-medium-purple:before {
+		content: "\f0c3";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-csound-dark-blue:before {
+		content: "\e9f0";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-rhino-medium-blue:before {
+		content: "\ea4a";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-openoffice-dark-green:before {
+		content: "\e9e4";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-marko-medium-blue:before {
+		content: "\e920";
+		color: #6a9fb5;
+		font-size: 129%;
+	}
+			
+	.file-fi-pinescript-medium-green:before {
+		content: "\eb30";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-solidity-dark-cyan:before {
+		content: "\ea86";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-sgi-medium-orange:before {
+		content: "\2318";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-kubernetes-medium-blue:before {
+		content: "\2388";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-fortran-dark-blue:before {
+		content: "\e90a";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-owl-dark-blue:before {
+		content: "\e957";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-jsonld-medium-blue:before {
+		content: "\e958";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-qt-medium-green:before {
+		content: "\eb00";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-maxscript-medium-cyan:before {
+		content: "\e900";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-ai-medium-orange:before {
+		content: "\e6b4";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-nwscript-dark-blue:before {
+		content: "\23ff";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-renovate-medium-cyan:before {
+		content: "\eb2d";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-tern-medium-purple:before {
+		content: "\1f54a";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-textmate-medium-blue:before {
+		content: "\2122";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-x10-light-maroon:before {
+		content: "\2169";
+		color: #be7953;
+		font-size: 107%;
+	}
+			
+	.file-fi-ansible-dark-cyan:before {
+		content: "\24b6";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-js-medium-yellow:before {
+		content: "\eb1a";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-hg-dark-cyan:before {
+		content: "\263f";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-max-medium-red:before {
+		content: "\e993";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-medium-green:before {
+		content: "\e9e8";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-terraform-medium-cyan:before {
+		content: "\e916";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-webgl-dark-red:before {
+		content: "\ea7b";
+		color: #be2f31;
+		font-size: 129%;
+	}
+			
+	.file-fi-marko-medium-maroon:before {
+		content: "\e920";
+		color: #8f5536;
+		font-size: 129%;
+	}
+			
+	.file-fi-unreal-medium-grey:before {
+		content: "u";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-word-medium-maroon:before {
+		content: "\e9ed";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-fountain-medium-blue:before {
+		content: "\1f135";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-wget-medium-purple:before {
+		content: "\eb38";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-autoit-medium-purple:before {
+		content: "\e933";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-darcs-medium-green:before {
+		content: "\e964";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-red-light-red:before {
+		content: "\eaec";
+		color: #c97071;
+		font-size: 114%;
+	}
+			
+	.file-fi-jade-medium-red:before {
+		content: "\e90d";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-mirah-light-blue:before {
+		content: "\e995";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-postscript-dark-blue:before {
+		content: "\e955";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-dataweave-medium-blue:before {
+		content: "\ea99";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-edge-dark-orange:before {
+		content: "\ea78";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-curry-medium-red:before {
+		content: "\eb78";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-source-dark-red:before {
+		content: "\eb82";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-factor-medium-red:before {
+		content: "\e96a";
+		color: #ac4142;
+		font-size: 129%;
+	}
+			
+	.file-fi-gosu-dark-green:before {
+		content: "\e97a";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-parrot-medium-green:before {
+		content: "\e9bb";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-nasm-dark-blue:before {
+		content: "\ea72";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-affinity-medium-blue:before {
+		content: "\eabb";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-husky-medium-green:before {
+		content: "\1f436";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-mathematica-dark-orange:before {
+		content: "\e990";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-nuget-dark-green:before {
+		content: "\e9d9";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-arc-medium-blue:before {
+		content: "\e92f";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-pyret-dark-red:before {
+		content: "\2620";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-digdag-medium-orange:before {
+		content: "\eb03";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-tla-medium-maroon:before {
+		content: "\eab2";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-n64-dark-green:before {
+		content: "n";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-opa-medium-blue:before {
+		content: "\2601";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-glyphs-medium-green:before {
+		content: "G";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-medium-blue:before {
+		content: "\eaaa";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-ahk-dark-blue:before {
+		content: "\e932";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-blender-dark-blue:before {
+		content: "\e9fa";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-hg-medium-grey:before {
+		content: "\263f";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-scratch-medium-orange:before {
+		content: "\a7";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-alex-medium-pink:before {
+		content: "\29cb";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-fi-kos-dark-green:before {
+		content: "k";
+		color: #66783e;
+		font-size: 121%;
+	}
+			
+	.file-fi-rmarkdown-medium-red:before {
+		content: "\211b";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-wolfram-medium-red:before {
+		content: "\1f43a";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-bibtex-medium-orange:before {
+		content: "\e601";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-mathematica-medium-orange:before {
+		content: "\e990";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-openvpn-medium-orange:before {
+		content: "\eaf3";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-dark-green:before {
+		content: "\e9e8";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-uno-dark-blue:before {
+		content: "\e9b3";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-matlab-medium-maroon:before {
+		content: "\e991";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-jest-medium-green:before {
+		content: "\ea39";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-asm-medium-cyan:before {
+		content: "\eb4f";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-gimp-medium-red:before {
+		content: "\ea88";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-yaml-dark-green:before {
+		content: "y";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-odin-medium-blue:before {
+		content: "\eb36";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-vue-light-green:before {
+		content: "\e906";
+		color: #b2c38b;
+		font-size: 107%;
+	}
+			
+	.file-fi-nvidia-dark-green:before {
+		content: "\e95d";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-yarn-medium-blue:before {
+		content: "\ea1a";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-modula3-medium-blue:before {
+		content: "\2778";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-dbase-medium-red:before {
+		content: "\e9f1";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-editorconfig-dark-blue:before {
+		content: "\ea1b";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-fortran-medium-maroon:before {
+		content: "\e90a";
+		color: #8f5536;
+		font-size: 100%;
+	}
+			
+	.file-fi-qiskit-dark-blue:before {
+		content: "\eb81";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-urweb-medium-maroon:before {
+		content: "\e9ba";
+		color: #8f5536;
+		font-size: 129%;
+	}
+			
+	.file-fi-a-plus-medium-blue:before {
+		content: "\eb79";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-org-dark-green:before {
+		content: "\e917";
+		color: #66783e;
+		font-size: 100%;
+	}
+			
+	.file-fi-n64-dark-cyan:before {
+		content: "n";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-sysverilog-medium-green:before {
+		content: "\e9c3";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-visio-medium-orange:before {
+		content: "\ea83";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-video-medium-maroon:before {
+		content: "\f057";
+		color: #8f5536;
+		font-size: 100%;
+	}
+			
+	.file-fi-test-generic-medium-grey:before {
+		content: "\ea63";
+		color: #7f7f7f;
+		font-size: 121%;
+	}
+			
+	.file-fi-clean-medium-blue:before {
+		content: "\e95b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-alpine-dark-blue:before {
+		content: "\e9ff";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-word-medium-orange:before {
+		content: "\e9ed";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-harbour-dark-blue:before {
+		content: "\e97b";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-dotjs-medium-blue:before {
+		content: "\eb0b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-falcon-medium-red:before {
+		content: "\eae4";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-cpcdosc-medium-blue:before {
+		content: "\eb8d";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-cp-medium-maroon:before {
+		content: "\e942";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-powerpoint-dark-red:before {
+		content: "\e9ec";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-json-dark-blue:before {
+		content: "\eabe";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-jolie-medium-red:before {
+		content: "\ea75";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-grapher-medium-green:before {
+		content: "\1f4c9";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-analytica-medium-orange:before {
+		content: "\eb7d";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-max-medium-green:before {
+		content: "\e993";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-abif-medium-green:before {
+		content: "\ea4e";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-scilla-medium-orange:before {
+		content: "\eae2";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-medium-purple:before {
+		content: "\f07c";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-fi-haxedevelop-medium-blue:before {
+		content: "\ea3b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-mjml-medium-orange:before {
+		content: "\ea6f";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-openoffice-medium-green:before {
+		content: "\e9e4";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-ejs-medium-green:before {
+		content: "\ea4b";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-pony-light-maroon:before {
+		content: "\e9b7";
+		color: #be7953;
+		font-size: 114%;
+	}
+			
+	.file-fi-yaml-medium-red:before {
+		content: "y";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-eslint-light-purple:before {
+		content: "\ea0f";
+		color: #c7a4c0;
+		font-size: 114%;
+	}
+			
+	.file-fi-dna-medium-red:before {
+		content: "\2624";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-picolisp-medium-purple:before {
+		content: "\eb25";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-opencl-medium-red:before {
+		content: "\e99f";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-coffee-medium-red:before {
+		content: "\eb18";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-bro-dark-cyan:before {
+		content: "\e93b";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-totvs-medium-maroon:before {
+		content: "\eb34";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-perl6-medium-blue:before {
+		content: "\e96c";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-bnf-medium-green:before {
+		content: "\2a74";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-coq-medium-maroon:before {
+		content: "\e95f";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-sketchup-sb-medium-red:before {
+		content: "\ea7d";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-nuget-medium-blue:before {
+		content: "\e9d9";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-txl-medium-orange:before {
+		content: "\e9c1";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-gimp-medium-cyan:before {
+		content: "\ea88";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-virtualbox-medium-purple:before {
+		content: "\ea3e";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-virtualbox-medium-green:before {
+		content: "\ea3e";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-stata-dark-cyan:before {
+		content: "\e9a3";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-delphi-medium-orange:before {
+		content: "\ea40";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-fortran-dark-yellow:before {
+		content: "\e90a";
+		color: #ee9e2e;
+		font-size: 100%;
+	}
+			
+	.file-fi-houndci-medium-purple:before {
+		content: "\eaaf";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-access-medium-green:before {
+		content: "\e9ea";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-source-dark-blue:before {
+		content: "\eb82";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-video-medium-orange:before {
+		content: "\f057";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-fancy-dark-blue:before {
+		content: "\e96b";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-dyalog-dark-green:before {
+		content: "\e90c";
+		color: #66783e;
+		font-size: 100%;
+	}
+			
+	.file-fi-ooc-medium-green:before {
+		content: "\e9cb";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-easybuild-dark-blue:before {
+		content: "\ea85";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-proselint-dark-cyan:before {
+		content: "\ea6d";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-ampl-dark-maroon:before {
+		content: "\e94e";
+		color: #7c4426;
+		font-size: 114%;
+	}
+			
+	.file-fi-junos-medium-blue:before {
+		content: "\ea81";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-snort-light-red:before {
+		content: "\1f43d";
+		color: #c97071;
+		font-size: 121%;
+	}
+			
+	.file-fi-vhdl-dark-orange:before {
+		content: "\e9aa";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-calva-medium-maroon:before {
+		content: "\eba1";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-godot-medium-blue:before {
+		content: "\e974";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-source-medium-maroon:before {
+		content: "\eb82";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-graphviz-medium-blue:before {
+		content: "\e97d";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-fbx-medium-maroon:before {
+		content: "\e9fc";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-genstat-medium-blue:before {
+		content: "\223f";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-jinja-dark-red:before {
+		content: "\e944";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-max-medium-blue:before {
+		content: "\e993";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-animate-dark-orange:before {
+		content: "\eb41";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-nessus-medium-cyan:before {
+		content: "\23e3";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-pico8-medium-red:before {
+		content: "\eabc";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-zephir-medium-pink:before {
+		content: "\e9c7";
+		color: #ff00cc;
+		font-size: 107%;
+	}
+			
+	.file-fi-jison-medium-blue:before {
+		content: "\ea55";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-reasonstudios-medium-red:before {
+		content: "\eb44";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-anyscript-dark-red:before {
+		content: "\eacf";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-cucumber-medium-green:before {
+		content: "\f02b";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-rescript-medium-red:before {
+		content: "\eba7";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-asm-vax-medium-maroon:before {
+		content: "\eb48";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-lolcode-dark-red:before {
+		content: "\1f63a";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-matlab-medium-red:before {
+		content: "\e991";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-audacity-medium-yellow:before {
+		content: "\e9f9";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-dark-green:before {
+		content: "\f07c";
+		color: #66783e;
+		font-size: 100%;
+	}
+			
+	.file-fi-ocaml-dark-orange:before {
+		content: "\e91a";
+		color: #a35f27;
+		font-size: 100%;
+	}
+			
+	.file-fi-font-bitmap-medium-cyan:before {
+		content: "\eaab";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-cython-medium-blue:before {
+		content: "\e963";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-textmate-dark-orange:before {
+		content: "\2122";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-font-medium-green:before {
+		content: "\eaaa";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-ballerina-dark-green:before {
+		content: "\eac8";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-rubygems-medium-red:before {
+		content: "\1f48e";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-visio-medium-cyan:before {
+		content: "\ea83";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-propeller-medium-orange:before {
+		content: "\e9b5";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-stan-medium-red:before {
+		content: "\e9a4";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-clean-dark-cyan:before {
+		content: "\e95b";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-mupad-medium-red:before {
+		content: "\e9ca";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-click-medium-yellow:before {
+		content: "\e95c";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-xpages-medium-blue:before {
+		content: "\e9c5";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-purebasic-dark-orange:before {
+		content: "\01b5";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-video-dark-purple:before {
+		content: "\f057";
+		color: #825078;
+		font-size: 100%;
+	}
+			
+	.file-fi-dna-medium-pink:before {
+		content: "\2624";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-fi-openoffice-dark-cyan:before {
+		content: "\e9e4";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-spacemacs-medium-purple:before {
+		content: "\eaa4";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-word-medium-cyan:before {
+		content: "\e9ed";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-jsx-medium-blue:before {
+		content: "\e9e6";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-openoffice-light-pink:before {
+		content: "\e9e4";
+		color: #ff4ddb;
+		font-size: 107%;
+	}
+			
+	.file-fi-premiere-medium-maroon:before {
+		content: "\e9f5";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-apl-medium-maroon:before {
+		content: "\234b";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-ceylon-medium-orange:before {
+		content: "\e94f";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-powershell-medium-purple:before {
+		content: "\e9da";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-rexx-medium-red:before {
+		content: "\ea16";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-rstudio-light-blue:before {
+		content: "\24c7";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-scd-medium-red:before {
+		content: "\e9a2";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-jupyter-dark-orange:before {
+		content: "\e987";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-telegram-light-blue:before {
+		content: "\2708";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-asymptote-medium-red:before {
+		content: "\eae5";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-indesign-dark-purple:before {
+		content: "\e9f4";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-lua-medium-blue:before {
+		content: "\e91b";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-word-medium-blue:before {
+		content: "\e9ed";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-moho-medium-blue:before {
+		content: "\eaee";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-galen-medium-blue:before {
+		content: "\ead8";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-lasso-dark-red:before {
+		content: "\e98c";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-lightwave-medium-blue:before {
+		content: "\e9fb";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-psd-dark-purple:before {
+		content: "\e6b8";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-jest-medium-yellow:before {
+		content: "\ea39";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-nailpolish-medium-green:before {
+		content: "\1f485";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-hp-medium-blue:before {
+		content: "\33cb";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-sorbet-medium-purple:before {
+		content: "\1f366";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-warcraft3-medium-maroon:before {
+		content: "\2162";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-codekit:before {
+		content: "\ea41";
+		color: black;
+		font-size: 107%;
+	}
+			
+	.file-fi-gimp-medium-green:before {
+		content: "\ea88";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-j-light-blue:before {
+		content: "\e937";
+		color: #9dc0ce;
+		font-size: 93%;
+	}
+			
+	.file-fi-lasso-medium-blue:before {
+		content: "\e98c";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-mint-medium-green:before {
+		content: "\1f33f";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-nomad-medium-green:before {
+		content: "\ea96";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-ats-medium-red:before {
+		content: "\e934";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-sage-medium-blue:before {
+		content: "\e9ab";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-perl6-dark-cyan:before {
+		content: "\e96c";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-ats-dark-yellow:before {
+		content: "\e934";
+		color: #ee9e2e;
+		font-size: 107%;
+	}
+			
+	.file-fi-ocaml-medium-red:before {
+		content: "\e91a";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-flow-medium-orange:before {
+		content: "\e921";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-nginx-medium-green:before {
+		content: "\f146b";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-strings-medium-red:before {
+		content: "\e9e0";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-dna-medium-green:before {
+		content: "\2624";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-gn-medium-blue:before {
+		content: "\ea25";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-houdini-medium-cyan:before {
+		content: "\1f300";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-xmos-dark-blue:before {
+		content: "X";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-kx-dark-purple:before {
+		content: "\ea9b";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-qlik-dark-green:before {
+		content: "\1f50d";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-lektor-medium-orange:before {
+		content: "\eab9";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-textmate-medium-purple:before {
+		content: "\2122";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-sparql-medium-blue:before {
+		content: "\e959";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-caffe2-dark-blue:before {
+		content: "\eab6";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-templeos-medium-yellow:before {
+		content: "\2696";
+		color: #f4bf75;
+		font-size: 129%;
+	}
+			
+	.file-fi-asm-avr-dark-purple:before {
+		content: "\eb6c";
+		color: #825078;
+		font-size: 121%;
+	}
+			
+	.file-fi-numpy-medium-blue:before {
+		content: "\eba8";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-lean-dark-red:before {
+		content: "L";
+		color: #be2f31;
+		font-size: 93%;
+	}
+			
+	.file-fi-san-medium-cyan:before {
+		content: "\eae6";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-idl-medium-blue:before {
+		content: "\e947";
+		color: #6a9fb5;
+		font-size: 129%;
+	}
+			
+	.file-fi-hack-medium-orange:before {
+		content: "\e9ce";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-maxscript-medium-red:before {
+		content: "\e900";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-sparql-dark-blue:before {
+		content: "\e959";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-csound-dark-maroon:before {
+		content: "\e9f0";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-zork-medium-maroon:before {
+		content: "\1b6";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-dna-dark-yellow:before {
+		content: "\2624";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-fi-hashicorp-dark-purple:before {
+		content: "\e97e";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-qsharp-dark-purple:before {
+		content: "\eb91";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-openpolicy-medium-cyan:before {
+		content: "\eb39";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-puppet-dark-blue:before {
+		content: "\f0c3";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-cc-medium-green:before {
+		content: "\e9d5";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-silverstripe-medium-blue:before {
+		content: "\e800";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-ec-dark-blue:before {
+		content: "\e9c9";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-pascal-medium-maroon:before {
+		content: "\e92a";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-flutter-light-blue:before {
+		content: "\eaeb";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-hg-dark-grey:before {
+		content: "\263f";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-hoplon-medium-red:before {
+		content: "\ea4d";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-tag-medium-orange:before {
+		content: "\f015";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-ioke-medium-red:before {
+		content: "\e982";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-octave-medium-orange:before {
+		content: "\ea33";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-terraform-medium-yellow:before {
+		content: "\e916";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-ogone-medium-grey:before {
+		content: "\ebaa";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-vhdl-medium-blue:before {
+		content: "\e9aa";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-vmware-medium-red:before {
+		content: "\ea49";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-pascal-dark-cyan:before {
+		content: "\e92a";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-llvm-dark-green:before {
+		content: "\e91d";
+		color: #66783e;
+		font-size: 121%;
+	}
+			
+	.file-fi-asm-medium-green:before {
+		content: "\eb4f";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-pogo-medium-orange:before {
+		content: "\e9b8";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-dhall-dark-grey:before {
+		content: "\1f58b";
+		color: #7f7f7f;
+		font-size: 121%;
+	}
+			
+	.file-fi-omnigraffle-medium-red:before {
+		content: "\ebaf";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-inform7-dark-blue:before {
+		content: "\e984";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-perl6-dark-green:before {
+		content: "\e96c";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-light-green:before {
+		content: "\eaaa";
+		color: #b2c38b;
+		font-size: 114%;
+	}
+			
+	.file-fi-bundler-medium-cyan:before {
+		content: "\ea45";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-genstat-medium-green:before {
+		content: "\223f";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-ecere-medium-blue:before {
+		content: "\e966";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-gams-dark-red:before {
+		content: "\e973";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-xmos-medium-purple:before {
+		content: "X";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-fi-ai-dark-orange:before {
+		content: "\e6b4";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-turing-medium-red:before {
+		content: "\e9b6";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-agda-medium-cyan:before {
+		content: "\1315a";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-nix-medium-cyan:before {
+		content: "\e99a";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-nickle-medium-grey:before {
+		content: "\a2";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-self-dark-blue:before {
+		content: "\e9a8";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-stata-medium-purple:before {
+		content: "\e9a3";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-finaldraft-medium-green:before {
+		content: "\1d4bb";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-fancy-medium-blue:before {
+		content: "\e96b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-nsis-medium-purple:before {
+		content: "\ea1e";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-docpad-medium-maroon:before {
+		content: "\21b9";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-pcd-medium-green:before {
+		content: "\26c5";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-postcss-medium-yellow:before {
+		content: "\e910";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-brotli-medium-orange:before {
+		content: "\eaa2";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-thor-medium-orange:before {
+		content: "\e9d8";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-gradle-medium-blue:before {
+		content: "\e903";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-rhino-medium-green:before {
+		content: "\ea4a";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-diff-medium-orange:before {
+		content: "\e960";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-omnigraffle-dark-green:before {
+		content: "\ebaf";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-lsl-medium-cyan:before {
+		content: "\e98b";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-cython-dark-blue:before {
+		content: "\e963";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-generic-medium-green:before {
+		content: "\ea63";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-conll-medium-orange:before {
+		content: "\eaa6";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-reek-medium-red:before {
+		content: "\eaa0";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-pure-medium-grey:before {
+		content: "\1f4a7";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-ec-dark-purple:before {
+		content: "\e9c9";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-nodemon-medium-green:before {
+		content: "\ea26";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-omnigraffle-medium-cyan:before {
+		content: "\ebaf";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-nailpolish-light-blue:before {
+		content: "\1f485";
+		color: #9dc0ce;
+		font-size: 114%;
+	}
+			
+	.file-fi-inkscape-dark-purple:before {
+		content: "\ea8e";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-pan-medium-red:before {
+		content: "\e9bd";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-awk-medium-blue:before {
+		content: "\1f427";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-eiffel-medium-cyan:before {
+		content: "\e967";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-julia-medium-purple:before {
+		content: "\26ec";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-fi-moho-medium-orange:before {
+		content: "\eaee";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-nuget-medium-purple:before {
+		content: "\e9d9";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-babel-dark-yellow:before {
+		content: "\e91f";
+		color: #ee9e2e;
+		font-size: 107%;
+	}
+			
+	.file-fi-mixin-medium-orange:before {
+		content: "\ebb9";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-gentoo-medium-blue:before {
+		content: "\e96d";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-openoffice-dark-purple:before {
+		content: "\e9e4";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-powershell-medium-blue:before {
+		content: "\e9da";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-scilab-dark-cyan:before {
+		content: "\e9a9";
+		color: #4d9085;
+		font-size: 129%;
+	}
+			
+	.file-fi-fthtml-medium-orange:before {
+		content: "\eb97";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-modula3-medium-green:before {
+		content: "\2778";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-vmware-medium-orange:before {
+		content: "\ea49";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-sketch-medium-orange:before {
+		content: "\e927";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-sac-medium-yellow:before {
+		content: "\203c";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-scheme-medium-red:before {
+		content: "\03bb";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-clips-dark-green:before {
+		content: "\e940";
+		color: #66783e;
+		font-size: 129%;
+	}
+			
+	.file-fi-husky-medium-yellow:before {
+		content: "\1f436";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-maxscript-dark-cyan:before {
+		content: "\e900";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-alloy-medium-red:before {
+		content: "\e935";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-mruby-medium-red:before {
+		content: "\ea18";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-oz-medium-yellow:before {
+		content: "\e9be";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-qlik-medium-green:before {
+		content: "\1f50d";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-font-bitmap-medium-blue:before {
+		content: "\eaab";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-gn-dark-blue:before {
+		content: "\ea25";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-awk-medium-maroon:before {
+		content: "\1f427";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-regex-medium-green:before {
+		content: "\002A";
+		color: #90a959;
+		font-size: 86%;
+	}
+			
+	.file-fi-vala-dark-purple:before {
+		content: "\1d4b1";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-nuget-dark-purple:before {
+		content: "\e9d9";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-boot:before {
+		content: "\f103";
+		color: black;
+		font-size: 114%;
+	}
+			
+	.file-fi-inno-medium-cyan:before {
+		content: "\e985";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-outlook-medium-maroon:before {
+		content: "\eada";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-tcl-medium-red:before {
+		content: "\e956";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-abap-medium-orange:before {
+		content: "\e92b";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-tag-medium-maroon:before {
+		content: "\f015";
+		color: #8f5536;
+		font-size: 100%;
+	}
+			
+	.file-fi-access-dark-maroon:before {
+		content: "\e9ea";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-postscript-medium-orange:before {
+		content: "\e955";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-source-medium-orange:before {
+		content: "\eb82";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-mercury-medium-cyan:before {
+		content: "\e994";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-asm-zilog-medium-yellow:before {
+		content: "\eb47";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-font-bitmap-medium-red:before {
+		content: "\eaab";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-adobe-cc-medium-red:before {
+		content: "\eb5e";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-access-medium-maroon:before {
+		content: "\e9ea";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-godot-medium-cyan:before {
+		content: "\e974";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-godot-medium-green:before {
+		content: "\e974";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-lync-dark-blue:before {
+		content: "\ead9";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-mjml-medium-red:before {
+		content: "\ea6f";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-kibo-light-yellow:before {
+		content: "\eba9";
+		color: #fae0bc;
+		font-size: 107%;
+	}
+			
+	.file-fi-nib-dark-orange:before {
+		content: "\2712";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-nit-dark-green:before {
+		content: "\e999";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-dia-medium-cyan:before {
+		content: "\eab5";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-minizinc-medium-blue:before {
+		content: "\ea53";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-yang-medium-yellow:before {
+		content: "\262f";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-lua-dark-purple:before {
+		content: "\e91b";
+		color: #825078;
+		font-size: 100%;
+	}
+			
+	.file-fi-ocaml-medium-orange:before {
+		content: "\e91a";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-affinity-medium-red:before {
+		content: "\eabb";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-emacs-dark-green:before {
+		content: "\e926";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-cmake-medium-green:before {
+		content: "\e93f";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-reason-medium-orange:before {
+		content: "\ea1d";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-1c-dark-orange:before {
+		content: "\a5ea";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-font-dark-cyan:before {
+		content: "\eaaa";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-hack-medium-red:before {
+		content: "\e9ce";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-lasso-medium-red:before {
+		content: "\e98c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-devicetree-medium-purple:before {
+		content: "\ea57";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-firebase-medium-orange:before {
+		content: "\ea7f";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-godot-dark-blue:before {
+		content: "\e974";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-boo-medium-green:before {
+		content: "\e939";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-csscript-dark-green:before {
+		content: "\e9e2";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-gimp-medium-orange:before {
+		content: "\ea88";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-modula2-medium-blue:before {
+		content: "\e996";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-prisma-dark-blue:before {
+		content: "\eac5";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-scratch-dark-orange:before {
+		content: "\a7";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-sqlite-medium-purple:before {
+		content: "\e9dd";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-ats-medium-blue:before {
+		content: "\e934";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-pascal-medium-purple:before {
+		content: "\e92a";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-docbook-medium-cyan:before {
+		content: "\13167";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-maxscript-dark-purple:before {
+		content: "\e900";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-lua-medium-green:before {
+		content: "\e91b";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-tmux-medium-green:before {
+		content: "\ea8c";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-golo-medium-orange:before {
+		content: "\e979";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-caffe-medium-green:before {
+		content: "\ea9a";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-premiere-medium-purple:before {
+		content: "\e9f5";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-delphi-medium-red:before {
+		content: "\ea40";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-gdb-medium-cyan:before {
+		content: "\ea08";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-jsonnet-medium-blue:before {
+		content: "\eb1e";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-font-dark-yellow:before {
+		content: "\eaaa";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-fi-vray-medium-grey:before {
+		content: "\24cb";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-monotone-dark-purple:before {
+		content: "\1f400";
+		color: #825078;
+		font-size: 129%;
+	}
+			
+	.file-fi-kicad-dark-blue:before {
+		content: "\ea4c";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-scad-medium-orange:before {
+		content: "\e911";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-byond-medium-blue:before {
+		content: "\e962";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-gosu-medium-green:before {
+		content: "\e97a";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-terminal-dark-purple:before {
+		content: "\f0c8";
+		color: #825078;
+		font-size: 100%;
+	}
+			
+	.file-fi-cf-light-cyan:before {
+		content: "\e929";
+		color: #a7d0c9;
+		font-size: 107%;
+	}
+			
+	.file-fi-kicad-dark-red:before {
+		content: "\ea4c";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-ox-medium-cyan:before {
+		content: "\e9a1";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-finder-dark-cyan:before {
+		content: "\e9e9";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-puppet-medium-orange:before {
+		content: "\f0c3";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-raml-medium-cyan:before {
+		content: "\e913";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-awk-medium-green:before {
+		content: "\1f427";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-closure-tpl-medium-blue:before {
+		content: "\ea82";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-psd-dark-blue:before {
+		content: "\e6b8";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-textmate-medium-green:before {
+		content: "\2122";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-ring-medium-purple:before {
+		content: "\1f48d";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-lilypond-medium-green:before {
+		content: "\1f4ae";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-walt-medium-purple:before {
+		content: "\eaba";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-word-dark-maroon:before {
+		content: "\e9ed";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-json5-dark-yellow:before {
+		content: "\2478";
+		color: #ee9e2e;
+		font-size: 107%;
+	}
+			
+	.file-fi-powerbuilder-medium-purple:before {
+		content: "\ea14";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-imba-medium-yellow:before {
+		content: "\26ff";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-indesign-dark-blue:before {
+		content: "\e9f4";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-tcl-dark-orange:before {
+		content: "\e956";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-faust-dark-orange:before {
+		content: "\22c0";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-factor-dark-orange:before {
+		content: "\e96a";
+		color: #a35f27;
+		font-size: 129%;
+	}
+			
+	.file-fi-xmos-medium-orange:before {
+		content: "X";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-povray-dark-blue:before {
+		content: "P";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-powerpoint-medium-maroon:before {
+		content: "\e9ec";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-frege-dark-red:before {
+		content: "\e96e";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-kaitai-medium-maroon:before {
+		content: "\30ab";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-rdoc-medium-red:before {
+		content: "\e9b0";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-textmate-medium-maroon:before {
+		content: "\2122";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-metapost-dark-red:before {
+		content: "\1d5ac";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-php-medium-red:before {
+		content: "\f147";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-powerbuilder-medium-maroon:before {
+		content: "\ea14";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-red-medium-red:before {
+		content: "\eaec";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-csound-medium-maroon:before {
+		content: "\e9f0";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-haml-medium-maroon:before {
+		content: "\f15b";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-franca-medium-maroon:before {
+		content: "\ea56";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-sublime-dark-orange:before {
+		content: "\e986";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-test-perl-medium-blue:before {
+		content: "\ea65";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-lean-dark-purple:before {
+		content: "L";
+		color: #825078;
+		font-size: 93%;
+	}
+			
+	.file-fi-font-bitmap-dark-orange:before {
+		content: "\eaab";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-fortran-dark-pink:before {
+		content: "\e90a";
+		color: #cc00a3;
+		font-size: 100%;
+	}
+			
+	.file-fi-textile-medium-orange:before {
+		content: "t";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-wenyan-light-orange:before {
+		content: "\8a00";
+		color: #e1ad83;
+		font-size: 121%;
+	}
+			
+	.file-fi-warcraft3-dark-orange:before {
+		content: "\2162";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-wasm-medium-red:before {
+		content: "\ea70";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-sandbox-dark-orange:before {
+		content: "\ebb1";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-neko-medium-orange:before {
+		content: "\ea05";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-ocaml-medium-green:before {
+		content: "\e91a";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-twig-medium-green:before {
+		content: "\2e19";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-powerpoint-medium-red:before {
+		content: "\e9ec";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-racket-light-red:before {
+		content: "\e9b1";
+		color: #c97071;
+		font-size: 107%;
+	}
+			
+	.file-fi-model-dark-orange:before {
+		content: "\e9e8";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-fi-hygen-medium-pink:before {
+		content: "\1f4c3";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-fi-lisp-medium-maroon:before {
+		content: "\e908";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-perl6-medium-purple:before {
+		content: "\e96c";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-pike-medium-blue:before {
+		content: "\e9b9";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-bnf-medium-maroon:before {
+		content: "\2a74";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-gdb-medium-green:before {
+		content: "\ea08";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-psd-medium-blue:before {
+		content: "\e6b8";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-peg-medium-maroon:before {
+		content: "\ea74";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-ant-dark-pink:before {
+		content: "\e93e";
+		color: #cc00a3;
+		font-size: 129%;
+	}
+			
+	.file-fi-conll-medium-blue:before {
+		content: "\eaa6";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-wdl-medium-blue:before {
+		content: "\eab1";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-gvdesign-medium-yellow:before {
+		content: "\eb02";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-openoffice-medium-purple:before {
+		content: "\e9e4";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-vyper-medium-grey:before {
+		content: "\eb31";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-moho-medium-yellow:before {
+		content: "\eaee";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-modo-medium-cyan:before {
+		content: "\f01f";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-prettier-dark-yellow:before {
+		content: "\eaa1";
+		color: #ee9e2e;
+		font-size: 107%;
+	}
+			
+	.file-fi-nxc-medium-orange:before {
+		content: "\ea6b";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-racket-medium-red:before {
+		content: "\e9b1";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-stata-dark-blue:before {
+		content: "\e9a3";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-visio-dark-maroon:before {
+		content: "\ea83";
+		color: #7c4426;
+		font-size: 107%;
+	}
+			
+	.file-fi-fantom-medium-blue:before {
+		content: "\e96f";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-asm-m68k-dark-red:before {
+		content: "\eb4d";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-alex-medium-red:before {
+		content: "\29cb";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-cvs-medium-orange:before {
+		content: "\1f41f";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-wolfram-medium-orange:before {
+		content: "\1f43a";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-access-medium-red:before {
+		content: "\e9ea";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-minecraft-medium-blue:before {
+		content: "\e9dc";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-nimble-medium-grey:before {
+		content: "\eb85";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-p4-dark-purple:before {
+		content: "\ea50";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-gap-medium-yellow:before {
+		content: "\e971";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-oberon-medium-purple:before {
+		content: "\eb3f";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-pascal-medium-cyan:before {
+		content: "\e92a";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-stata-medium-blue:before {
+		content: "\e9a3";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-elm-medium-blue:before {
+		content: "\f102";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-gradle-dark-purple:before {
+		content: "\e903";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-xojo-medium-cyan:before {
+		content: "\e9af";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-amx-dark-blue:before {
+		content: "\e99b";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-rebol-dark-red:before {
+		content: "\e9ae";
+		color: #be2f31;
+		font-size: 93%;
+	}
+			
+	.file-fi-excel-dark-orange:before {
+		content: "\e9ee";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-svelte-medium-orange:before {
+		content: "\33dc";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-excel-medium-orange:before {
+		content: "\e9ee";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-biml-medium-red:before {
+		content: "\eb29";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-outlook-medium-red:before {
+		content: "\eada";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-crafttweaker-medium-maroon:before {
+		content: "\eb89";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-numpy-dark-blue:before {
+		content: "\eba8";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-fi-remark-dark-yellow:before {
+		content: "\eb1d";
+		color: #ee9e2e;
+		font-size: 107%;
+	}
+			
+	.file-fi-bibtex-medium-blue:before {
+		content: "\e601";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-pawn-medium-orange:before {
+		content: "\265f";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-cwl-dark-red:before {
+		content: "\29d9";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-jscpd-medium-orange:before {
+		content: "\eb95";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-brakeman-medium-red:before {
+		content: "\e9d6";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-as-medium-yellow:before {
+		content: "\e92e";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-amusewiki-dark-red:before {
+		content: "\eb32";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-fi-kotlin-medium-blue:before {
+		content: "\e989";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-octave-dark-orange:before {
+		content: "\ea33";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-as-medium-blue:before {
+		content: "\e92e";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-bnf-medium-cyan:before {
+		content: "\2a74";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-tfs-dark-purple:before {
+		content: "\eae1";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-kotlin-medium-orange:before {
+		content: "\e989";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-cordova-light-blue:before {
+		content: "\ea11";
+		color: #9dc0ce;
+		font-size: 107%;
+	}
+			
+	.file-fi-gatsby-dark-purple:before {
+		content: "\24bc";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-readthedocs-dark-grey:before {
+		content: "\2398";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-jasmine-medium-purple:before {
+		content: "\ea3a";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-hie-dark-purple:before {
+		content: "\ebab";
+		color: #825078;
+		font-size: 129%;
+	}
+			
+	.file-fi-chai-medium-red:before {
+		content: "c";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-photorec-medium-green:before {
+		content: "\ebc0";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-remark-medium-yellow:before {
+		content: "\eb1d";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-ts-medium-blue:before {
+		content: "\eb1b";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-gitpod-medium-blue:before {
+		content: "\1d5a6";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-mocha-medium-red:before {
+		content: "\26fe";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-pullapprove-dark-blue:before {
+		content: "\293e";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-remark-medium-green:before {
+		content: "\eb1d";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-bintray-medium-green:before {
+		content: "\ea6e";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-unicode-medium-red:before {
+		content: "\eb6e";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-jest-medium-red:before {
+		content: "\ea39";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-d3-medium-orange:before {
+		content: "\ea10";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-tailwind-medium-cyan:before {
+		content: "\301c";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-fi-chef-medium-orange:before {
+		content: "\ea42";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-cabal-medium-purple:before {
+		content: "\e9c2";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-dragula-dark-purple:before {
+		content: "\1f44c";
+		color: #825078;
+		font-size: 121%;
+	}
+			
+	.file-fi-lgtm-dark-purple:before {
+		content: "\1f435";
+		color: #825078;
+		font-size: 121%;
+	}
+			
+	.file-fi-nestjs-medium-red:before {
+		content: "\eac9";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-pypi-dark-blue:before {
+		content: "\ea94";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-codeship-dark-blue:before {
+		content: "\ea6a";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-esdoc-medium-red:before {
+		content: "\ea5c";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-composer-dark-blue:before {
+		content: "\e683";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-pyup-dark-cyan:before {
+		content: "\eb26";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-crafttweaker-medium-orange:before {
+		content: "\eb89";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-tcl-dark-red:before {
+		content: "\e956";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-behat-medium-cyan:before {
+		content: "\ea89";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-terser-medium-orange:before {
+		content: "\272c";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-bundler-medium-blue:before {
+		content: "\ea45";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-istanbul-medium-yellow:before {
+		content: "\1f54c";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-yamllint-medium-green:before {
+		content: "\eb9d";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-stdlibjs-medium-orange:before {
+		content: "\eb70";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-browsersync-medium-red:before {
+		content: "b";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-hyper-dark-purple:before {
+		content: "\eb37";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-moment-medium-cyan:before {
+		content: "\1f558";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-conda-medium-green:before {
+		content: "\eb3c";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-dub-medium-red:before {
+		content: "\eba2";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-modernweb-medium-blue:before {
+		content: "\eb9f";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-doxygen-medium-blue:before {
+		content: "\e928";
+		color: #6a9fb5;
+		font-size: 93%;
+	}
+			
+	.file-fi-gulp-medium-red:before {
+		content: "\e610";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-antwar-dark-purple:before {
+		content: "\2591";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-react-dark-blue:before {
+		content: "\f100";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-remark-medium-red:before {
+		content: "\eb1d";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-lefthook-medium-red:before {
+		content: "\eb8b";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-kitchenci-medium-green:before {
+		content: "\ea38";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-nokogiri-medium-red:before {
+		content: "\92f8";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-chartjs-dark-pink:before {
+		content: "\ea0b";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-lighthouse-dark-blue:before {
+		content: "\26ef";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-markdownlint-medium-red:before {
+		content: "\f0c9";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-stitches-medium-purple:before {
+		content: "\eba0";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-hs-medium-purple:before {
+		content: "\eb14";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-phoenix-medium-orange:before {
+		content: "\ea5f";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-pnpm-medium-orange:before {
+		content: "\eb86";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-galaxy-medium-grey:before {
+		content: "\eb74";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-codecov-dark-pink:before {
+		content: "\2602";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-grunt-medium-maroon:before {
+		content: "\e611";
+		color: #8f5536;
+		font-size: 100%;
+	}
+			
+	.file-fi-ionic-medium-blue:before {
+		content: "\f14b";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-snapcraft-dark-cyan:before {
+		content: "\eb09";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-openzfs-dark-blue:before {
+		content: "\1d419";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-commitizen-dark-purple:before {
+		content: "\ebb3";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-shipit-medium-orange:before {
+		content: "\26f5";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-nsri-medium-green:before {
+		content: "\eb2f";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-wallaby-medium-green:before {
+		content: "\231f";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-v8-medium-blue:before {
+		content: "\ea1f";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-fuelux-medium-orange:before {
+		content: "\ea09";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-nightwatch-dark-maroon:before {
+		content: "\eb08";
+		color: #7c4426;
+		font-size: 114%;
+	}
+			
+	.file-fi-istanbul-medium-orange:before {
+		content: "\1f54c";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-yui-dark-blue:before {
+		content: "\ea00";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-stylelint-medium-purple:before {
+		content: "\e93d";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-browserslist-medium-orange:before {
+		content: "\ea80";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-npm-medium-red:before {
+		content: "\e91c";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-alacritty-medium-orange:before {
+		content: "\eb27";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-grunt-medium-yellow:before {
+		content: "\e611";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-platformio-medium-orange:before {
+		content: "\ea2c";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-medium-orange:before {
+		content: "\f07c";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-glide-light-orange:before {
+		content: "\eacb";
+		color: #e1ad83;
+		font-size: 121%;
+	}
+			
+	.file-fi-jake-medium-maroon:before {
+		content: "\e948";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-sails-medium-blue:before {
+		content: "\eb87";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-stylelint-medium-yellow:before {
+		content: "\e93d";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-apollo-dark-blue:before {
+		content: "\1f110";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-gulp-medium-maroon:before {
+		content: "\e610";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-fi-meson-medium-green:before {
+		content: "\ea54";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-docker-dark-orange:before {
+		content: "\f106";
+		color: #a35f27;
+		font-size: 129%;
+	}
+			
+	.file-fi-nextflow-dark-green:before {
+		content: "\eaa5";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-nsri-dark-green:before {
+		content: "\eb2f";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-quasar-medium-blue:before {
+		content: "\eacc";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-coveralls-medium-red:before {
+		content: "\272a";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-tag-medium-yellow:before {
+		content: "\f015";
+		color: #f4bf75;
+		font-size: 100%;
+	}
+			
+	.file-fi-boot-medium-green:before {
+		content: "\f103";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-phpunit-medium-purple:before {
+		content: "\ea32";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-bazel-medium-green:before {
+		content: "\ead2";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-postscript-dark-red:before {
+		content: "\e955";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-tortoise-medium-red:before {
+		content: "\ea93";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-workbox-medium-orange:before {
+		content: "\eaa8";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-normalize-medium-red:before {
+		content: "\ea04";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-fi-cpan-medium-yellow:before {
+		content: "\ea87";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-nuxt-medium-cyan:before {
+		content: "\eaca";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-vsts-medium-blue:before {
+		content: "\eac0";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-semrelease-medium-grey:before {
+		content: "\1f7cd";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-lua-dark-green:before {
+		content: "\e91b";
+		color: #66783e;
+		font-size: 100%;
+	}
+			
+	.file-fi-apiextractor-light-blue:before {
+		content: "\eb99";
+		color: #9dc0ce;
+		font-size: 114%;
+	}
+			
+	.file-fi-terminal-medium-orange:before {
+		content: "\f0c8";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-fi-nanoc-medium-red:before {
+		content: "\ea51";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-yandex-medium-red:before {
+		content: "\42f";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-dosbox-medium-orange:before {
+		content: "\eaf2";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-bazel-dark-green:before {
+		content: "\ead2";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-fi-imgbot-dark-cyan:before {
+		content: "\ebbf";
+		color: #4d9085;
+		font-size: 121%;
+	}
+			
+	.file-fi-pnpm-medium-yellow:before {
+		content: "\eb86";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-gulp-medium-blue:before {
+		content: "\e610";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-swagger-medium-green:before {
+		content: "\ea29";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-greenkeeper-medium-green:before {
+		content: "\eb0c";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-ls-medium-green:before {
+		content: "\e914";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-gql-codegen-dark-pink:before {
+		content: "\ebae";
+		color: #cc00a3;
+		font-size: 129%;
+	}
+			
+	.file-fi-snowpack-dark-blue:before {
+		content: "\1f3d4";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-commitlint-medium-blue:before {
+		content: "\1f191";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-fusebox-medium-blue:before {
+		content: "\ead7";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-mathjax-dark-green:before {
+		content: "\ea06";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-rubocop-dark-red:before {
+		content: "\eade";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-restql-medium-cyan:before {
+		content: "\ebb0";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-wercker-medium-purple:before {
+		content: "\ea19";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-kicad-medium-maroon:before {
+		content: "\ea4c";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-cpan-medium-red:before {
+		content: "\ea87";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-windi-medium-blue:before {
+		content: "\1f4a8";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-vagrant-medium-cyan:before {
+		content: "V";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-brew-medium-orange:before {
+		content: "\1f37a";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-openbsd-medium-orange:before {
+		content: "\1f421";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-grunt-medium-blue:before {
+		content: "\e611";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-fi-buck-dark-blue:before {
+		content: "\ea46";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-caddy-dark-blue:before {
+		content: "\1f512";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-shadowcljs-medium-cyan:before {
+		content: "\eb88";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-caffe2-medium-purple:before {
+		content: "\eab6";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-istanbul-medium-green:before {
+		content: "\1f54c";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-zeit-medium-grey:before {
+		content: "\25B2";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-shippable-medium-cyan:before {
+		content: "\ea2d";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-composer-medium-yellow:before {
+		content: "\e683";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-fi-brunch-medium-green:before {
+		content: "\ea47";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-fi-typedoc-dark-purple:before {
+		content: "\e9fe";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-shellcheck-light-maroon:before {
+		content: "\1f41a";
+		color: #be7953;
+		font-size: 121%;
+	}
+			
+	.file-fi-dependabot-medium-blue:before {
+		content: "\eb3e";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-karma-medium-cyan:before {
+		content: "\e9cd";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-aurelia-dark-pink:before {
+		content: "\ea48";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-perl-medium-blue:before {
+		content: "\eb19";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-azurepipelines-dark-blue:before {
+		content: "\1f680";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-precommit-medium-yellow:before {
+		content: "\eac1";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-nextjs-dark-grey:before {
+		content: "\24c3";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-karma-medium-maroon:before {
+		content: "\e9cd";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-moleculer-medium-blue:before {
+		content: "\eb0e";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-conan-medium-blue:before {
+		content: "\ead1";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-tilt-medium-green:before {
+		content: "\eb8a";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-finder-medium-blue:before {
+		content: "\e9e9";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-markdownlint-dark-cyan:before {
+		content: "\f0c9";
+		color: #4d9085;
+		font-size: 121%;
+	}
+			
+	.file-fi-robots-dark-cyan:before {
+		content: "\1f916";
+		color: #4d9085;
+		font-size: 107%;
+	}
+			
+	.file-fi-flask-dark-blue:before {
+		content: "\1f704";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-vite-medium-yellow:before {
+		content: "\2607";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-nx-dark-blue:before {
+		content: "\eb9c";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-fi-isabelle-dark-blue:before {
+		content: "\e945";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-rsync-dark-purple:before {
+		content: "\eb9e";
+		color: #825078;
+		font-size: 121%;
+	}
+			
+	.file-fi-binder-medium-orange:before {
+		content: "\eba4";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-phraseapp-medium-blue:before {
+		content: "\eadb";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-codemeta-medium-grey:before {
+		content: "\eb8f";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-cmake-medium-red:before {
+		content: "\e93f";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-fi-solidarity-dark-red:before {
+		content: "\1d5e6";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-qt-medium-yellow:before {
+		content: "\eb00";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-coffee-medium-maroon:before {
+		content: "\eb18";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-deno-medium-grey:before {
+		content: "\eaef";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-fi-helix-medium-blue:before {
+		content: "\2695";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-testcafe-medium-blue:before {
+		content: "\2714";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-appveyor-medium-blue:before {
+		content: "\e923";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-llvm-medium-red:before {
+		content: "\e91d";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-nginx-dark-green:before {
+		content: "\f146b";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-phoenix-medium-red:before {
+		content: "\ea5f";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-truffle-medium-maroon:before {
+		content: "\eb3b";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-fork-medium-blue:before {
+		content: "\2442";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-darcs-dark-green:before {
+		content: "\e964";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-medium-cyan:before {
+		content: "\f07c";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-fi-config-rust-medium-maroon:before {
+		content: "\eb13";
+		color: #8f5536;
+		font-size: 121%;
+	}
+			
+	.file-fi-fabfile-medium-blue:before {
+		content: "\e94b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-cakefile-medium-red:before {
+		content: "\e924";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-fi-firebase-medium-yellow:before {
+		content: "\ea7f";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-patreon-medium-orange:before {
+		content: "\eb42";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-fi-lerna-medium-blue:before {
+		content: "\ea37";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-webhint-dark-purple:before {
+		content: "\eb35";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-fi-typings-medium-maroon:before {
+		content: "\e9df";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-pipenv-dark-blue:before {
+		content: "\1f381";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-thor-dark-orange:before {
+		content: "\e9d8";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-polymer-medium-purple:before {
+		content: "\ea2b";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-v8-dark-blue:before {
+		content: "\ea1f";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-zeit-medium-maroon:before {
+		content: "\25B2";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-pytest-medium-blue:before {
+		content: "\eba6";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-chocolatey-medium-blue:before {
+		content: "\1f36b";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-jenkins-medium-red:before {
+		content: "\e667";
+		color: #ac4142;
+		font-size: 129%;
+	}
+			
+	.file-fi-fancy-medium-green:before {
+		content: "\e96b";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-keybase-medium-blue:before {
+		content: "\eaf8";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-xmake-medium-green:before {
+		content: "\eb94";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-brakeman-dark-red:before {
+		content: "\e9d6";
+		color: #be2f31;
+		font-size: 107%;
+	}
+			
+	.file-fi-devcontainer-medium-blue:before {
+		content: "\eb83";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-gitlab-medium-orange:before {
+		content: "\ea3c";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-stdlibjs-medium-blue:before {
+		content: "\eb70";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-carthage-dark-pink:before {
+		content: "\ea98";
+		color: #cc00a3;
+		font-size: 107%;
+	}
+			
+	.file-fi-cpan-medium-maroon:before {
+		content: "\ea87";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-fi-dotenv-medium-yellow:before {
+		content: "\ebb8";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-modula3-medium-red:before {
+		content: "\2778";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-jupyter-dark-cyan:before {
+		content: "\e987";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-fabric-medium-orange:before {
+		content: "\1f4dc";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-emacs-dark-blue:before {
+		content: "\e926";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-postscript-medium-blue:before {
+		content: "\e955";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-stylishhaskell-medium-purple:before {
+		content: "\eb3d";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-fi-w3c-medium-blue:before {
+		content: "\ebac";
+		color: #6a9fb5;
+		font-size: 129%;
+	}
+			
+	.file-fi-pros-medium-orange:before {
+		content: "\eaad";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-bors-dark-purple:before {
+		content: "\1f441";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-fi-cabal-medium-yellow:before {
+		content: "\e9c2";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-fi-goreleaser-medium-blue:before {
+		content: "\eb90";
+		color: #6a9fb5;
+		font-size: 129%;
+	}
+			
+	.file-fi-neko-dark-orange:before {
+		content: "\ea05";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-icomoon-medium-purple:before {
+		content: "\eaea";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-config-go-dark-blue:before {
+		content: "\eb12";
+		color: #46788d;
+		font-size: 129%;
+	}
+			
+	.file-fi-perl6-medium-green:before {
+		content: "\e96c";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-fi-crowdin-medium-green:before {
+		content: "\ead3";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-config-ts-medium-purple:before {
+		content: "\eb1b";
+		color: #aa759f;
+		font-size: 121%;
+	}
+			
+	.file-fi-config-react-medium-blue:before {
+		content: "\eb16";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-emacs-medium-blue:before {
+		content: "\e926";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-circleci-medium-green:before {
+		content: "\ea12";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-fi-istanbul-medium-blue:before {
+		content: "\1f54c";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-config-go-medium-green:before {
+		content: "\eb12";
+		color: #90a959;
+		font-size: 129%;
+	}
+			
+	.file-fi-acre-medium-blue:before {
+		content: "\237a";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-bazel-medium-cyan:before {
+		content: "\ead2";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-netlify-dark-blue:before {
+		content: "\eabf";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-cpan-dark-blue:before {
+		content: "\ea87";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-verilog-dark-green:before {
+		content: "\e949";
+		color: #66783e;
+		font-size: 107%;
+	}
+			
+	.file-fi-hjson-medium-green:before {
+		content: "\eac2";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-fi-acre-medium-blue:before {
+		content: "\237a";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-cabal-medium-cyan:before {
+		content: "\e9c2";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-fi-cpan-medium-blue:before {
+		content: "\ea87";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-dvc-light-blue:before {
+		content: "\eb98";
+		color: #9dc0ce;
+		font-size: 121%;
+	}
+			
+	.file-fi-fossil:before {
+		content: "\ead6";
+		color: black;
+		font-size: 121%;
+	}
+			
+	.file-fi-cubit-medium-cyan:before {
+		content: "\eb92";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-cvs-medium-orange:before {
+		content: "\1f41f";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-fi-devcontainer-medium-blue:before {
+		content: "\eb83";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-fi-emacs-medium-purple:before {
+		content: "\e926";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-fi-expo-medium-blue:before {
+		content: "\eb71";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-fi-agda-dark-cyan:before {
+		content: "\1315a";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-fi-bazaar-medium-yellow:before {
+		content: "\eacd";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-fi-gitlab:before {
+		content: "\ea3c";
+		color: black;
+		font-size: 114%;
+	}
+			
+	.file-fi-yarn-medium-blue:before {
+		content: "\ea1a";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-fi-acre-dark-blue:before {
+		content: "\237a";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-azurepipelines-dark-blue:before {
+		content: "\1f680";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-fi-buildkite-light-green:before {
+		content: "\ebad";
+		color: #b2c38b;
+		font-size: 121%;
+	}
+			
+	.file-fi-docker-dark-blue:before {
+		content: "\f106";
+		color: #46788d;
+		font-size: 129%;
+	}
+			
+	.file-fi-meteor-dark-orange:before {
+		content: "\e6a5";
+		color: #a35f27;
+		font-size: 107%;
+	}
+			
+	.file-fi-istanbul-medium-orange:before {
+		content: "\1f54c";
+		color: #d28445;
+		font-size: 121%;
+	}
+			
+	.file-fi-svn:before {
+		content: "\ea17";
+		color: black;
+		font-size: 107%;
+	}
+			
+	.file-fi-bloc-medium-cyan:before {
+		content: "\eba3";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-fi-circleci:before {
+		content: "\ea12";
+		color: black;
+		font-size: 100%;
+	}
+			
+	.file-fi-cnab-dark-blue:before {
+		content: "\ebb5";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-fi-dub-medium-red:before {
+		content: "\eba2";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-fi-wine-dark-red:before {
+		content: "\1f377";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-fi-hg-medium-grey:before {
+		content: "\263f";
+		color: #7f7f7f;
+		font-size: 107%;
+	}
+			
+	.file-fi-cpan-dark-blue:before {
+		content: "\ea87";
+		color: #46788d;
+		font-size: 107%;
+	}
+			

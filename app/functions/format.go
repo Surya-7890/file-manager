@@ -17,6 +17,7 @@ type File struct {
 	Time        string `json:"time"`
 	Name        string `json:"name"`
 	Type        string `json:"type"`
+	Icon        string `json:"icon"`
 }
 
 var (
@@ -67,6 +68,26 @@ func FileListToJson(data string) ([]byte, error) {
 			name = strings.Join(fields[9:], " ")
 		}
 
+		fileType := FileType[string(fields[0][0])]
+
+		fontFam, key := GetIconForFileName(name, fileType)
+		
+		if len(key) > 0 && key[0] == '_' {
+			key = key[1:]
+		}
+
+		key = strings.ReplaceAll(key, "_", "-")
+
+		icon := "file-" + fontFam + "-" + key
+
+		if fileType == FileType["d"] {
+			icon = "folder-" + fontFam + "-" + key
+		}
+
+		if fontFam == "" && key == "" {
+			icon = ""
+		}
+
 		fileData := File{
 			Permissions: fields[0],
 			Links:       links,
@@ -76,7 +97,8 @@ func FileListToJson(data string) ([]byte, error) {
 			Date:        date,
 			Time:        time,
 			Name:        name,
-			Type:        FileType[string(fields[0][0])],
+			Type:        fileType,
+			Icon:        icon,
 		}
 
 		files = append(files, fileData)
