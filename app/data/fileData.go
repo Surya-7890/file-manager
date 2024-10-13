@@ -22711,11 +22711,21 @@ func GenerateCSS() {
 			v = v[1:]
 		}
 		v = strings.ReplaceAll(v, "_", "-")
-		val := fmt.Sprintf(`
-.file-%s-%s:before {
-	content: "%s";
-}
-		`, IconMap[key].FontId, v, IconMap[key].FontCharacter)
+		fontColor := IconMap[key].FontColor
+		if fontColor == "" {
+			fontColor = "black" // Use a default color if FontColor is missing
+		}
+		fontSize := IconMap[key].FontSize
+		if fontSize == "" {
+			fontSize = "100%"
+		}
+        val := fmt.Sprintf(`
+	.file-%s-%s:before {
+		content: "%s";
+		color: %s;
+		font-size: %s;
+	}
+			`, IconMap[key].FontId, v, IconMap[key].FontCharacter, fontColor, fontSize)
 
 		if _, present := Map["file-"+IconMap[key].FontId+"-"+v]; !present {
 			if IconMap[key].FontId == "fi" {
@@ -22739,11 +22749,21 @@ func GenerateCSS() {
 			v = v[1:]
 		}
 		v = strings.ReplaceAll(v, "_", "-")
-		val := fmt.Sprintf(`
-.file-%s-%s:before {
-	content: "%s";
-}
-		`, IconMap[key].FontId, v, IconMap[key].FontCharacter)
+		fontColor := IconMap[key].FontColor
+		if fontColor == "" {
+			fontColor = "black" // Use a default color if FontColor is missing
+		}
+		fontSize := IconMap[key].FontSize
+		if fontSize == "" {
+			fontSize = "100%"
+		}
+        val := fmt.Sprintf(`
+	.file-%s-%s:before {
+		content: "%s";
+		color: %s;
+		font-size: %s;
+	}
+			`, IconMap[key].FontId, v, IconMap[key].FontCharacter, fontColor, fontSize)
 
 		if _, present := Map["file-"+IconMap[key].FontId+"-"+v]; !present {
 			if IconMap[key].FontId == "fi" {
@@ -22767,11 +22787,21 @@ func GenerateCSS() {
 			v = v[1:]
 		}
 		v = strings.ReplaceAll(v, "_", "-")
-		val := fmt.Sprintf(`
-.file-%s-%s:before {
-	content: "%s";
-}
-		`, IconMap[key].FontId, v, IconMap[key].FontCharacter)
+		fontColor := IconMap[key].FontColor
+		if fontColor == "" {
+			fontColor = "black" // Use a default color if FontColor is missing
+		}
+		fontSize := IconMap[key].FontSize
+		if fontSize == "" {
+			fontSize = "100%"
+		}
+        val := fmt.Sprintf(`
+	.file-%s-%s:before {
+		content: "%s";
+		color: %s;
+		font-size: %s;
+	}
+			`, IconMap[key].FontId, v, IconMap[key].FontCharacter, fontColor, fontSize)
 
 		if _, present := Map["file-"+IconMap[key].FontId+"-"+v]; !present {
 			if IconMap[key].FontId == "fi" {
@@ -22795,11 +22825,21 @@ func GenerateCSS() {
 			v = v[1:]
 		}
 		v = strings.ReplaceAll(v, "_", "-")
-		val := fmt.Sprintf(`
-.folder-%s-%s:before {
-	content: "%s";
-}
-		`, IconMap[key].FontId, v, IconMap[key].FontCharacter)
+		fontColor := IconMap[key].FontColor
+		if fontColor == "" {
+			fontColor = "black" // Use a default color if FontColor is missing
+		}
+		fontSize := IconMap[key].FontSize
+		if fontSize == "" {
+			fontSize = "100%"
+		}
+        val := fmt.Sprintf(`
+	.file-%s-%s:before {
+		content: "%s";
+		color: %s;
+		font-size: %s;
+	}
+			`, IconMap[key].FontId, v, IconMap[key].FontCharacter, fontColor, fontSize)
 
 		if _, present := Map["folder-"+IconMap[key].FontId+"-"+v]; !present {
 			if IconMap[key].FontId == "fi" {
@@ -22821,7 +22861,7 @@ func GenerateCSS() {
 }
 
 func writeToFiles(fi, fa, mf, devicons, octicons string) {
-	file_fi, err := os.Create("frontend/src/components/main/fi.module.css")
+	file_fi, err := os.Create("frontend/src/components/main/css/fi.module.css")
 	if err != nil {
 		panic(err)
 	}
@@ -22830,7 +22870,7 @@ func writeToFiles(fi, fa, mf, devicons, octicons string) {
 		file.Close()
 	}(file_fi, fi)
 
-	file_fa, err := os.Create("frontend/src/components/main/fa.module.css")
+	file_fa, err := os.Create("frontend/src/components/main/css/fa.module.css")
 	if err != nil {
 		panic(err)
 	}
@@ -22839,7 +22879,7 @@ func writeToFiles(fi, fa, mf, devicons, octicons string) {
 		file.Close()
 	}(file_fa, fa)
 
-	file_mf, err := os.Create("frontend/src/components/main/mf.module.css")
+	file_mf, err := os.Create("frontend/src/components/main/css/mf.module.css")
 	if err != nil {
 		panic(err)
 	}
@@ -22848,7 +22888,7 @@ func writeToFiles(fi, fa, mf, devicons, octicons string) {
 		file.Close()
 	}(file_mf, mf)
 
-	file_devicons, err := os.Create("frontend/src/components/main/devicons.module.css")
+	file_devicons, err := os.Create("frontend/src/components/main/css/devicons.module.css")
 	if err != nil {
 		panic(err)
 	}
@@ -22857,7 +22897,7 @@ func writeToFiles(fi, fa, mf, devicons, octicons string) {
 		file.Close()
 	}(file_devicons, devicons)
 
-	file_octicons, err := os.Create("frontend/src/components/main/octicons.module.css")
+	file_octicons, err := os.Create("frontend/src/components/main/css/octicons.module.css")
 	if err != nil {
 		panic(err)
 	}

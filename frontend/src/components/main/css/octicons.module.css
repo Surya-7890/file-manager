@@ -25,659 +25,987 @@
 }
 	
 
-.file-octicons-image-dark-blue:before {
-	content: "\f012";
-}
-		
-.file-octicons-code-dark-purple:before {
-	content: "\f05f";
-}
-		
-.file-octicons-circuit-board-medium-green:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-text-medium-blue:before {
-	content: "\f011";
-}
-		
-.file-octicons-binary-dark-orange:before {
-	content: "\f094";
-}
-		
-.file-octicons-key-medium-green:before {
-	content: "\f049";
-}
-		
-.file-octicons-code-light-cyan:before {
-	content: "\f05f";
-}
-		
-.file-octicons-image-light-purple:before {
-	content: "\f012";
-}
-		
-.file-octicons-database-medium-blue:before {
-	content: "\f096";
-}
-		
-.file-octicons-code-dark-blue:before {
-	content: "\f05f";
-}
-		
-.file-octicons-code-medium-blue:before {
-	content: "\f05f";
-}
-		
-.file-octicons-ruby-medium-red:before {
-	content: "\f047";
-}
-		
-.file-octicons-database-medium-red:before {
-	content: "\f096";
-}
-		
-.file-octicons-code-medium-red:before {
-	content: "\f05f";
-}
-		
-.file-octicons-image-medium-orange:before {
-	content: "\f012";
-}
-		
-.file-octicons-circuit-board-medium-yellow:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-image-medium-yellow:before {
-	content: "\f012";
-}
-		
-.file-octicons-code-medium-orange:before {
-	content: "\f05f";
-}
-		
-.file-octicons-code-dark-maroon:before {
-	content: "\f05f";
-}
-		
-.file-octicons-code-medium-pink:before {
-	content: "\f05f";
-}
-		
-.file-octicons-markdown-medium-blue:before {
-	content: "\f0c9";
-}
-		
-.file-octicons-zip-dark-blue:before {
-	content: "\f013";
-}
-		
-.file-octicons-code-medium-cyan:before {
-	content: "\f05f";
-}
-		
-.file-octicons-image-medium-red:before {
-	content: "\f012";
-}
-		
-.file-octicons-code-medium-yellow:before {
-	content: "\f05f";
-}
-		
-.file-octicons-code-dark-pink:before {
-	content: "\f05f";
-}
-		
-.file-octicons-checklist-medium-yellow:before {
-	content: "\f076";
-}
-		
-.file-octicons-link-medium-blue:before {
-	content: "\f0b0";
-}
-		
-.file-octicons-image-dark-red:before {
-	content: "\f012";
-}
-		
-.file-octicons-circuit-board-dark-blue:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-database-medium-green:before {
-	content: "\f096";
-}
-		
-.file-octicons-book-medium-blue:before {
-	content: "\f007";
-}
-		
-.file-octicons-graph-light-green:before {
-	content: "\f043";
-}
-		
-.file-octicons-database-dark-cyan:before {
-	content: "\f096";
-}
-		
-.file-octicons-image-medium-cyan:before {
-	content: "\f012";
-}
-		
-.file-octicons-database-dark-orange:before {
-	content: "\f096";
-}
-		
-.file-octicons-database-dark-green:before {
-	content: "\f096";
-}
-		
-.file-octicons-database-medium-orange:before {
-	content: "\f096";
-}
-		
-.file-octicons-zip-medium-green:before {
-	content: "\f013";
-}
-		
-.file-octicons-text-dark-blue:before {
-	content: "\f011";
-}
-		
-.file-octicons-text-medium-red:before {
-	content: "\f011";
-}
-		
-.file-octicons-ruby-dark-red:before {
-	content: "\f047";
-}
-		
-.file-octicons-code-dark-green:before {
-	content: "\f05f";
-}
-		
-.file-octicons-text-medium-cyan:before {
-	content: "\f011";
-}
-		
-.file-octicons-gear-medium-red:before {
-	content: "\f02f";
-}
-		
-.file-octicons-database-dark-purple:before {
-	content: "\f096";
-}
-		
-.file-octicons-database-medium-maroon:before {
-	content: "\f096";
-}
-		
-.file-octicons-database-medium-purple:before {
-	content: "\f096";
-}
-		
-.file-octicons-circuit-board-medium-red:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-database-medium-grey:before {
-	content: "\f096";
-}
-		
-.file-octicons-text-medium-maroon:before {
-	content: "\f011";
-}
-		
-.file-octicons-binary-medium-red:before {
-	content: "\f094";
-}
-		
-.file-octicons-text-medium-green:before {
-	content: "\f011";
-}
-		
-.file-octicons-key-medium-purple:before {
-	content: "\f049";
-}
-		
-.file-octicons-binary-medium-orange:before {
-	content: "\f094";
-}
-		
-.file-octicons-image-medium-blue:before {
-	content: "\f012";
-}
-		
-.file-octicons-image-dark-green:before {
-	content: "\f012";
-}
-		
-.file-octicons-circuit-board-dark-green:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-zip-medium-red:before {
-	content: "\f013";
-}
-		
-.file-octicons-image-medium-green:before {
-	content: "\f012";
-}
-		
-.file-octicons-code-dark-cyan:before {
-	content: "\f05f";
-}
-		
-.file-octicons-zip-medium-blue:before {
-	content: "\f013";
-}
-		
-.file-octicons-circuit-board-medium-orange:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-circuit-board-dark-maroon:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-book-medium-red:before {
-	content: "\f007";
-}
-		
-.file-octicons-zip-medium-orange:before {
-	content: "\f013";
-}
-		
-.file-octicons-database-dark-red:before {
-	content: "\f096";
-}
-		
-.file-octicons-zip-medium-cyan:before {
-	content: "\f013";
-}
-		
-.file-octicons-graph-medium-blue:before {
-	content: "\f043";
-}
-		
-.file-octicons-code-dark-red:before {
-	content: "\f05f";
-}
-		
-.file-octicons-binary-medium-green:before {
-	content: "\f094";
-}
-		
-.file-octicons-binary-dark-purple:before {
-	content: "\f094";
-}
-		
-.file-octicons-zip-dark-orange:before {
-	content: "\f013";
-}
-		
-.file-octicons-binary-dark-green:before {
-	content: "\f094";
-}
-		
-.file-octicons-circuit-board-dark-yellow:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-ruby-dark-yellow:before {
-	content: "\f047";
-}
-		
-.file-octicons-zip-medium-maroon:before {
-	content: "\f013";
-}
-		
-.file-octicons-code-medium-green:before {
-	content: "\f05f";
-}
-		
-.file-octicons-key-medium-blue:before {
-	content: "\f049";
-}
-		
-.file-octicons-mail-medium-red:before {
-	content: "\f03b";
-}
-		
-.file-octicons-text-medium-purple:before {
-	content: "\f011";
-}
-		
-.file-octicons-text-medium-orange:before {
-	content: "\f011";
-}
-		
-.file-octicons-code-dark-orange:before {
-	content: "\f05f";
-}
-		
-.file-octicons-image-dark-orange:before {
-	content: "\f012";
-}
-		
-.file-octicons-code-dark-yellow:before {
-	content: "\f05f";
-}
-		
-.file-octicons-gear-medium-maroon:before {
-	content: "\f02f";
-}
-		
-.file-octicons-database-medium-cyan:before {
-	content: "\f096";
-}
-		
-.file-octicons-database-dark-blue:before {
-	content: "\f096";
-}
-		
-.file-octicons-graph-light-red:before {
-	content: "\f043";
-}
-		
-.file-octicons-code-light-purple:before {
-	content: "\f05f";
-}
-		
-.file-octicons-graph-medium-cyan:before {
-	content: "\f043";
-}
-		
-.file-octicons-image-medium-pink:before {
-	content: "\f012";
-}
-		
-.file-octicons-zip:before {
-	content: "\f013";
-}
-		
-.file-octicons-circuit-board-dark-red:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-image-medium-purple:before {
-	content: "\f012";
-}
-		
-.file-octicons-checklist-medium-red:before {
-	content: "\f076";
-}
-		
-.file-octicons-gear-dark-green:before {
-	content: "\f02f";
-}
-		
-.file-octicons-gear-medium-yellow:before {
-	content: "\f02f";
-}
-		
-.file-octicons-graph-dark-blue:before {
-	content: "\f043";
-}
-		
-.file-octicons-image-dark-purple:before {
-	content: "\f012";
-}
-		
-.file-octicons-checklist-medium-blue:before {
-	content: "\f076";
-}
-		
-.file-octicons-image-dark-cyan:before {
-	content: "\f012";
-}
-		
-.file-octicons-squirrel-medium-maroon:before {
-	content: "\f0b2";
-}
-		
-.file-octicons-image-light-blue:before {
-	content: "\f012";
-}
-		
-.file-octicons-text-medium-yellow:before {
-	content: "\f011";
-}
-		
-.file-octicons-graph-medium-green:before {
-	content: "\f043";
-}
-		
-.file-octicons-binary-medium-purple:before {
-	content: "\f094";
-}
-		
-.file-octicons-code-medium-purple:before {
-	content: "\f05f";
-}
-		
-.file-octicons-circuit-board-dark-cyan:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-image-dark-maroon:before {
-	content: "\f012";
-}
-		
-.file-octicons-image-medium-grey:before {
-	content: "\f012";
-}
-		
-.file-octicons-checklist-light-blue:before {
-	content: "\f076";
-}
-		
-.file-octicons-code-light-blue:before {
-	content: "\f05f";
-}
-		
-.file-octicons-key-medium-orange:before {
-	content: "\f049";
-}
-		
-.file-octicons-key-medium-yellow:before {
-	content: "\f049";
-}
-		
-.file-octicons-database-light-blue:before {
-	content: "\f096";
-}
-		
-.file-octicons-zip-medium-purple:before {
-	content: "\f013";
-}
-		
-.file-octicons-star-dark-red:before {
-	content: "\f02a";
-}
-		
-.file-octicons-zip-dark-pink:before {
-	content: "\f013";
-}
-		
-.file-octicons-gear-dark-orange:before {
-	content: "\f02f";
-}
-		
-.file-octicons-text-dark-purple:before {
-	content: "\f011";
-}
-		
-.file-octicons-package-light-orange:before {
-	content: "\f0c4";
-}
-		
-.file-octicons-secret:before {
-	content: "\f08c";
-}
-		
-.file-octicons-package-dark-orange:before {
-	content: "\f0c4";
-}
-		
-.file-octicons-code-light-green:before {
-	content: "\f05f";
-}
-		
-.file-octicons-text-dark-orange:before {
-	content: "\f011";
-}
-		
-.file-octicons-code-medium-maroon:before {
-	content: "\f05f";
-}
-		
-.file-octicons-code-light-maroon:before {
-	content: "\f05f";
-}
-		
-.file-octicons-circuit-board-medium-cyan:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-binary-dark-blue:before {
-	content: "\f094";
-}
-		
-.file-octicons-gear-medium-blue:before {
-	content: "\f02f";
-}
-		
-.file-octicons-checklist-dark-purple:before {
-	content: "\f076";
-}
-		
-.file-octicons-squirrel-medium-red:before {
-	content: "\f0b2";
-}
-		
-.file-octicons-zip-light-orange:before {
-	content: "\f013";
-}
-		
-.file-octicons-paintcan-medium-purple:before {
-	content: "\f0d1";
-}
-		
-.file-octicons-markdown-medium-purple:before {
-	content: "\f0c9";
-}
-		
-.file-octicons-pdf-medium-red:before {
-	content: "\f014";
-}
-		
-.file-octicons-mail-medium-blue:before {
-	content: "\f03b";
-}
-		
-.file-octicons-binary-dark-red:before {
-	content: "\f094";
-}
-		
-.file-octicons-text-dark-red:before {
-	content: "\f011";
-}
-		
-.file-octicons-circuit-board-medium-maroon:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-gear-dark-blue:before {
-	content: "\f02f";
-}
-		
-.file-octicons-package-medium-green:before {
-	content: "\f0c4";
-}
-		
-.file-octicons-link-dark-blue:before {
-	content: "\f0b0";
-}
-		
-.file-octicons-binary-medium-grey:before {
-	content: "\f094";
-}
-		
-.file-octicons-zip-dark-cyan:before {
-	content: "\f013";
-}
-		
-.file-octicons-code-light-orange:before {
-	content: "\f05f";
-}
-		
-.file-octicons-circuit-board-medium-blue:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-image-dark-grey:before {
-	content: "\f012";
-}
-		
-.file-octicons-circuit-board-dark-orange:before {
-	content: "\f0d6";
-}
-		
-.file-octicons-book-dark-blue:before {
-	content: "\f007";
-}
-		
-.file-octicons-key-dark-green:before {
-	content: "\f049";
-}
-		
-.file-octicons-checklist-medium-green:before {
-	content: "\f076";
-}
-		
-.file-octicons-git-merge-medium-red:before {
-	content: "\f023";
-}
-		
-.file-octicons-checklist-dark-blue:before {
-	content: "\f076";
-}
-		
-.file-octicons-package-medium-yellow:before {
-	content: "\f0c4";
-}
-		
-.file-octicons-git-commit-medium-red:before {
-	content: "\f01f";
-}
-		
-.file-octicons-gear-dark-yellow:before {
-	content: "\f02f";
-}
-		
-.file-octicons-checklist-dark-red:before {
-	content: "\f076";
-}
-		
-.file-octicons-checklist-medium-cyan:before {
-	content: "\f076";
-}
-		
-.file-octicons-gear-medium-orange:before {
-	content: "\f02f";
-}
-		
-.file-octicons-package-medium-blue:before {
-	content: "\f0c4";
-}
-		
-.folder-octicons-package:before {
-	content: "\f0c4";
-}
-		
-.folder-octicons-github:before {
-	content: "\f00a";
-}
-		
+	.file-octicons-code-medium-red:before {
+		content: "\f05f";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-dark-cyan:before {
+		content: "\f096";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-cyan:before {
+		content: "\f012";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-octicons-ruby-dark-yellow:before {
+		content: "\f047";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-blue:before {
+		content: "\f012";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-blue:before {
+		content: "\f05f";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-cyan:before {
+		content: "\f05f";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-pink:before {
+		content: "\f05f";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-dark-orange:before {
+		content: "\f011";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-blue:before {
+		content: "\f05f";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-light-blue:before {
+		content: "\f096";
+		color: #9dc0ce;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-maroon:before {
+		content: "\f096";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-octicons-ruby-medium-red:before {
+		content: "\f047";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-cyan:before {
+		content: "\f012";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-orange:before {
+		content: "\f05f";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-dark-purple:before {
+		content: "\f076";
+		color: #825078;
+		font-size: 121%;
+	}
+			
+	.file-octicons-zip-medium-maroon:before {
+		content: "\f013";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-dark-purple:before {
+		content: "\f096";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-red:before {
+		content: "\f096";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-light-maroon:before {
+		content: "\f05f";
+		color: #be7953;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-dark-blue:before {
+		content: "\f0d6";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-medium-orange:before {
+		content: "\f094";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-pink:before {
+		content: "\f012";
+		color: #ff00cc;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-red:before {
+		content: "\f012";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip:before {
+		content: "\f013";
+		color: black;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-maroon:before {
+		content: "\f011";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-dark-orange:before {
+		content: "\f094";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-orange:before {
+		content: "\f012";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-markdown-medium-blue:before {
+		content: "\f0c9";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-dark-orange:before {
+		content: "\f0d6";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-medium-yellow:before {
+		content: "\f076";
+		color: #f4bf75;
+		font-size: 121%;
+	}
+			
+	.file-octicons-database-medium-green:before {
+		content: "\f096";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-book-medium-blue:before {
+		content: "\f007";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-graph-medium-blue:before {
+		content: "\f043";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-light-purple:before {
+		content: "\f05f";
+		color: #c7a4c0;
+		font-size: 114%;
+	}
+			
+	.file-octicons-squirrel-medium-maroon:before {
+		content: "\f0b2";
+		color: #8f5536;
+		font-size: 107%;
+	}
+			
+	.file-octicons-circuit-board-dark-green:before {
+		content: "\f0d6";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-medium-green:before {
+		content: "\f013";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-green:before {
+		content: "\f05f";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-green:before {
+		content: "\f0d6";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-red:before {
+		content: "\f012";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-orange:before {
+		content: "\f012";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-cyan:before {
+		content: "\f05f";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-red:before {
+		content: "\f05f";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-maroon:before {
+		content: "\f05f";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-octicons-link-medium-blue:before {
+		content: "\f0b0";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-blue:before {
+		content: "\f012";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-dark-green:before {
+		content: "\f094";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-purple:before {
+		content: "\f012";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-ruby-dark-red:before {
+		content: "\f047";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-purple:before {
+		content: "\f011";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-cyan:before {
+		content: "\f096";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-medium-blue:before {
+		content: "\f013";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-green:before {
+		content: "\f012";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-light-blue:before {
+		content: "\f076";
+		color: #9dc0ce;
+		font-size: 121%;
+	}
+			
+	.file-octicons-image-light-purple:before {
+		content: "\f012";
+		color: #c7a4c0;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-dark-cyan:before {
+		content: "\f0d6";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-octicons-key-medium-purple:before {
+		content: "\f049";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-yellow:before {
+		content: "\f05f";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-graph-light-red:before {
+		content: "\f043";
+		color: #c97071;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-dark-purple:before {
+		content: "\f011";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-purple:before {
+		content: "\f096";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-medium-red:before {
+		content: "\f094";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-pink:before {
+		content: "\f05f";
+		color: #cc00a3;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-green:before {
+		content: "\f012";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-dark-cyan:before {
+		content: "\f013";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-dark-blue:before {
+		content: "\f013";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-blue:before {
+		content: "\f096";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-key-medium-blue:before {
+		content: "\f049";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-markdown-medium-purple:before {
+		content: "\f0c9";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-grey:before {
+		content: "\f012";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-red:before {
+		content: "\f0d6";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-blue:before {
+		content: "\f011";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-yellow:before {
+		content: "\f0d6";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-maroon:before {
+		content: "\f012";
+		color: #7c4426;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-dark-red:before {
+		content: "\f011";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-dark-blue:before {
+		content: "\f011";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-package-medium-green:before {
+		content: "\f0c4";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-cyan:before {
+		content: "\f0d6";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-yellow:before {
+		content: "\f05f";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-orange:before {
+		content: "\f0d6";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-yellow:before {
+		content: "\f012";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-red:before {
+		content: "\f011";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-graph-medium-cyan:before {
+		content: "\f043";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-medium-purple:before {
+		content: "\f013";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-dark-purple:before {
+		content: "\f094";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-medium-orange:before {
+		content: "\f013";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-secret:before {
+		content: "\f08c";
+		color: black;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-purple:before {
+		content: "\f05f";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-medium-red:before {
+		content: "\f013";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-orange:before {
+		content: "\f011";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-medium-cyan:before {
+		content: "\f013";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-purple:before {
+		content: "\f05f";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-medium-grey:before {
+		content: "\f094";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-dark-orange:before {
+		content: "\f013";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-grey:before {
+		content: "\f096";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-light-blue:before {
+		content: "\f05f";
+		color: #9dc0ce;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-medium-green:before {
+		content: "\f05f";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-blue:before {
+		content: "\f0d6";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-pdf-medium-red:before {
+		content: "\f014";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-medium-orange:before {
+		content: "\f096";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-medium-purple:before {
+		content: "\f094";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-key-medium-green:before {
+		content: "\f049";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-yellow:before {
+		content: "\f011";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-dark-red:before {
+		content: "\f0d6";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-mail-medium-blue:before {
+		content: "\f03b";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-medium-grey:before {
+		content: "\f012";
+		color: #7f7f7f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-squirrel-medium-red:before {
+		content: "\f0b2";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-octicons-image-light-blue:before {
+		content: "\f012";
+		color: #9dc0ce;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-light-orange:before {
+		content: "\f013";
+		color: #e1ad83;
+		font-size: 114%;
+	}
+			
+	.file-octicons-mail-medium-red:before {
+		content: "\f03b";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-dark-blue:before {
+		content: "\f096";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-dark-orange:before {
+		content: "\f096";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-maroon:before {
+		content: "\f05f";
+		color: #7c4426;
+		font-size: 114%;
+	}
+			
+	.file-octicons-link-dark-blue:before {
+		content: "\f0b0";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-light-cyan:before {
+		content: "\f05f";
+		color: #a7d0c9;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-cyan:before {
+		content: "\f011";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-medium-maroon:before {
+		content: "\f0d6";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-octicons-star-dark-red:before {
+		content: "\f02a";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-medium-red:before {
+		content: "\f076";
+		color: #ac4142;
+		font-size: 121%;
+	}
+			
+	.file-octicons-binary-dark-blue:before {
+		content: "\f094";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-medium-red:before {
+		content: "\f02f";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-graph-dark-blue:before {
+		content: "\f043";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-image-dark-purple:before {
+		content: "\f012";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-dark-red:before {
+		content: "\f094";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-medium-blue:before {
+		content: "\f02f";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-book-medium-red:before {
+		content: "\f007";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-medium-yellow:before {
+		content: "\f02f";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-dark-orange:before {
+		content: "\f02f";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-dark-blue:before {
+		content: "\f02f";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-dark-orange:before {
+		content: "\f05f";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-light-orange:before {
+		content: "\f05f";
+		color: #e1ad83;
+		font-size: 114%;
+	}
+			
+	.file-octicons-graph-medium-green:before {
+		content: "\f043";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-zip-dark-pink:before {
+		content: "\f013";
+		color: #cc00a3;
+		font-size: 114%;
+	}
+			
+	.file-octicons-graph-light-green:before {
+		content: "\f043";
+		color: #b2c38b;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-medium-blue:before {
+		content: "\f076";
+		color: #6a9fb5;
+		font-size: 121%;
+	}
+			
+	.file-octicons-package-dark-orange:before {
+		content: "\f0c4";
+		color: #a35f27;
+		font-size: 114%;
+	}
+			
+	.file-octicons-package-light-orange:before {
+		content: "\f0c4";
+		color: #e1ad83;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-dark-green:before {
+		content: "\f096";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-dark-maroon:before {
+		content: "\f0d6";
+		color: #7c4426;
+		font-size: 114%;
+	}
+			
+	.file-octicons-code-light-green:before {
+		content: "\f05f";
+		color: #b2c38b;
+		font-size: 114%;
+	}
+			
+	.file-octicons-key-medium-orange:before {
+		content: "\f049";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-database-dark-red:before {
+		content: "\f096";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-octicons-binary-medium-green:before {
+		content: "\f094";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-medium-maroon:before {
+		content: "\f02f";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-octicons-text-medium-green:before {
+		content: "\f011";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-octicons-paintcan-medium-purple:before {
+		content: "\f0d1";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-dark-green:before {
+		content: "\f02f";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-key-medium-yellow:before {
+		content: "\f049";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-circuit-board-dark-yellow:before {
+		content: "\f0d6";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-book-dark-blue:before {
+		content: "\f007";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-octicons-package-medium-blue:before {
+		content: "\f0c4";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-octicons-git-commit-medium-red:before {
+		content: "\f01f";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-git-merge-medium-red:before {
+		content: "\f023";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-dark-red:before {
+		content: "\f076";
+		color: #be2f31;
+		font-size: 121%;
+	}
+			
+	.file-octicons-package-medium-yellow:before {
+		content: "\f0c4";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-dark-blue:before {
+		content: "\f076";
+		color: #46788d;
+		font-size: 121%;
+	}
+			
+	.file-octicons-key-dark-green:before {
+		content: "\f049";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-medium-green:before {
+		content: "\f076";
+		color: #90a959;
+		font-size: 121%;
+	}
+			
+	.file-octicons-gear-dark-yellow:before {
+		content: "\f02f";
+		color: #ee9e2e;
+		font-size: 114%;
+	}
+			
+	.file-octicons-gear-medium-orange:before {
+		content: "\f02f";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-octicons-checklist-medium-cyan:before {
+		content: "\f076";
+		color: #75b5aa;
+		font-size: 121%;
+	}
+			
+	.file-octicons-github:before {
+		content: "\f00a";
+		color: black;
+		font-size: 114%;
+	}
+			
+	.file-octicons-package:before {
+		content: "\f0c4";
+		color: black;
+		font-size: 114%;
+	}
+			

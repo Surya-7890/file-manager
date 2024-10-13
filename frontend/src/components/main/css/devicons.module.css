@@ -25,483 +25,723 @@
 }
 
 
-.file-devicons-eclipse-medium-red:before {
-	content: "\e69e";
-}
-		
-.file-devicons-windows:before {
-	content: "\e60f";
-}
-		
-.file-devicons-perl-medium-purple:before {
-	content: "\e669";
-}
-		
-.file-devicons-vim-medium-green:before {
-	content: "\e6c5";
-}
-		
-.file-devicons-vs-dark-red:before {
-	content: "\e60c";
-}
-		
-.file-devicons-erlang-medium-maroon:before {
-	content: "\e6b1";
-}
-		
-.file-devicons-yeoman-medium-cyan:before {
-	content: "\e67a";
-}
-		
-.file-devicons-asp-dark-blue:before {
-	content: "\e67f";
-}
-		
-.file-devicons-vs-dark-purple:before {
-	content: "\e60c";
-}
-		
-.file-devicons-vs-medium-purple:before {
-	content: "\e60c";
-}
-		
-.file-devicons-asp-dark-cyan:before {
-	content: "\e67f";
-}
-		
-.file-devicons-vs-light-red:before {
-	content: "\e60c";
-}
-		
-.file-devicons-atom-medium-green:before {
-	content: "\e664";
-}
-		
-.file-devicons-appstore-dark-purple:before {
-	content: "\e613";
-}
-		
-.file-devicons-unity3d-dark-cyan:before {
-	content: "\e621";
-}
-		
-.file-devicons-appstore-dark-cyan:before {
-	content: "\e613";
-}
-		
-.file-devicons-node-dark-green:before {
-	content: "\e618";
-}
-		
-.file-devicons-vs-medium-orange:before {
-	content: "\e60c";
-}
-		
-.file-devicons-vs-light-cyan:before {
-	content: "\e60c";
-}
-		
-.file-devicons-clojure-medium-red:before {
-	content: "\e668";
-}
-		
-.file-devicons-clojure-medium-purple:before {
-	content: "\e668";
-}
-		
-.file-devicons-vs-medium-blue:before {
-	content: "\e60c";
-}
-		
-.file-devicons-asp-dark-green:before {
-	content: "\e67f";
-}
-		
-.file-devicons-rust-medium-maroon:before {
-	content: "\e6a8";
-}
-		
-.file-devicons-clojure-medium-green:before {
-	content: "\e668";
-}
-		
-.file-devicons-appstore-medium-red:before {
-	content: "\e613";
-}
-		
-.file-devicons-vs-dark-blue:before {
-	content: "\e60c";
-}
-		
-.file-devicons-perl-medium-red:before {
-	content: "\e669";
-}
-		
-.file-devicons-git-medium-red:before {
-	content: "\e602";
-}
-		
-.file-devicons-perl-dark-purple:before {
-	content: "\e669";
-}
-		
-.file-devicons-windows-medium-purple:before {
-	content: "\e60f";
-}
-		
-.file-devicons-vs-medium-red:before {
-	content: "\e60c";
-}
-		
-.file-devicons-node-medium-green:before {
-	content: "\e618";
-}
-		
-.file-devicons-appstore-dark-red:before {
-	content: "\e613";
-}
-		
-.file-devicons-typo3-medium-orange:before {
-	content: "\e672";
-}
-		
-.file-devicons-firefox-medium-orange:before {
-	content: "\e645";
-}
-		
-.file-devicons-perl-dark-blue:before {
-	content: "\e669";
-}
-		
-.file-devicons-clojure-medium-blue:before {
-	content: "\e668";
-}
-		
-.file-devicons-atom-dark-green:before {
-	content: "\e664";
-}
-		
-.file-devicons-unity3d-dark-green:before {
-	content: "\e621";
-}
-		
-.file-devicons-unity3d-dark-red:before {
-	content: "\e621";
-}
-		
-.file-devicons-asp-medium-maroon:before {
-	content: "\e67f";
-}
-		
-.file-devicons-vs-medium-cyan:before {
-	content: "\e60c";
-}
-		
-.file-devicons-heroku-dark-purple:before {
-	content: "\e67b";
-}
-		
-.file-devicons-dlang-medium-red:before {
-	content: "\e6af";
-}
-		
-.file-devicons-vs-medium-maroon:before {
-	content: "\e60c";
-}
-		
-.file-devicons-heroku-light-purple:before {
-	content: "\e67b";
-}
-		
-.file-devicons-appstore-medium-orange:before {
-	content: "\e613";
-}
-		
-.file-devicons-asp-medium-green:before {
-	content: "\e67f";
-}
-		
-.file-devicons-unity3d-medium-red:before {
-	content: "\e621";
-}
-		
-.file-devicons-jekyll-medium-green:before {
-	content: "\e60d";
-}
-		
-.file-devicons-clojure-medium-yellow:before {
-	content: "\e668";
-}
-		
-.file-devicons-fsharp-medium-blue:before {
-	content: "\e6a7";
-}
-		
-.file-devicons-unity3d-medium-maroon:before {
-	content: "\e621";
-}
-		
-.file-devicons-vs-dark-orange:before {
-	content: "\e60c";
-}
-		
-.file-devicons-appstore-medium-green:before {
-	content: "\e613";
-}
-		
-.file-devicons-dart-medium-cyan:before {
-	content: "\e698";
-}
-		
-.file-devicons-unity3d-dark-blue:before {
-	content: "\e621";
-}
-		
-.file-devicons-erlang-dark-maroon:before {
-	content: "\e6b1";
-}
-		
-.file-devicons-safari-medium-blue:before {
-	content: "\e648";
-}
-		
-.file-devicons-erlang-medium-green:before {
-	content: "\e6b1";
-}
-		
-.file-devicons-erlang-dark-red:before {
-	content: "\e6b1";
-}
-		
-.file-devicons-unity3d-medium-blue:before {
-	content: "\e621";
-}
-		
-.file-devicons-windows-medium-blue:before {
-	content: "\e60f";
-}
-		
-.file-devicons-appstore-medium-purple:before {
-	content: "\e613";
-}
-		
-.file-devicons-safari-dark-blue:before {
-	content: "\e648";
-}
-		
-.file-devicons-eclipse-dark-blue:before {
-	content: "\e69e";
-}
-		
-.file-devicons-appstore-medium-blue:before {
-	content: "\e613";
-}
-		
-.file-devicons-erlang-dark-green:before {
-	content: "\e6b1";
-}
-		
-.file-devicons-vs-dark-green:before {
-	content: "\e60c";
-}
-		
-.file-devicons-rust-light-maroon:before {
-	content: "\e6a8";
-}
-		
-.file-devicons-prolog-medium-purple:before {
-	content: "\e6a1";
-}
-		
-.file-devicons-sass-dark-pink:before {
-	content: "\e64b";
-}
-		
-.file-devicons-prolog-medium-cyan:before {
-	content: "\e6a1";
-}
-		
-.file-devicons-asp-medium-purple:before {
-	content: "\e67f";
-}
-		
-.file-devicons-bootstrap-medium-orange:before {
-	content: "\e647";
-}
-		
-.file-devicons-appstore-dark-blue:before {
-	content: "\e613";
-}
-		
-.file-devicons-perl-medium-blue:before {
-	content: "\e669";
-}
-		
-.file-devicons-vs-medium-green:before {
-	content: "\e60c";
-}
-		
-.file-devicons-sass-light-pink:before {
-	content: "\e64b";
-}
-		
-.file-devicons-chrome-medium-red:before {
-	content: "\e643";
-}
-		
-.file-devicons-unity3d-medium-cyan:before {
-	content: "\e621";
-}
-		
-.file-devicons-prolog-medium-blue:before {
-	content: "\e6a1";
-}
-		
-.file-devicons-appstore-medium-cyan:before {
-	content: "\e613";
-}
-		
-.file-devicons-vim-dark-green:before {
-	content: "\e6c5";
-}
-		
-.file-devicons-asp-medium-cyan:before {
-	content: "\e67f";
-}
-		
-.file-devicons-eclipse-medium-maroon:before {
-	content: "\e69e";
-}
-		
-.file-devicons-swift-medium-orange:before {
-	content: "\e655";
-}
-		
-.file-devicons-erlang-medium-red:before {
-	content: "\e6b1";
-}
-		
-.file-devicons-requirejs-medium-blue:before {
-	content: "\e670";
-}
-		
-.file-devicons-materialize-light-red:before {
-	content: "\e6b6";
-}
-		
-.file-devicons-backbone-dark-blue:before {
-	content: "\e652";
-}
-		
-.file-devicons-bootstrap-dark-blue:before {
-	content: "\e647";
-}
-		
-.file-devicons-uikit-medium-blue:before {
-	content: "\e673";
-}
-		
-.file-devicons-jquery-dark-blue:before {
-	content: "\e650";
-}
-		
-.file-devicons-snapsvg-medium-cyan:before {
-	content: "\e65e";
-}
-		
-.file-devicons-bootstrap-medium-green:before {
-	content: "\e647";
-}
-		
-.file-devicons-bootstrap-medium-blue:before {
-	content: "\e647";
-}
-		
-.file-devicons-bootstrap-light-pink:before {
-	content: "\e647";
-}
-		
-.file-devicons-dojo-light-red:before {
-	content: "\e61c";
-}
-		
-.file-devicons-angular-medium-red:before {
-	content: "\e653";
-}
-		
-.file-devicons-bower-medium-yellow:before {
-	content: "\e64d";
-}
-		
-.file-devicons-raphael-medium-orange:before {
-	content: "\e65f";
-}
-		
-.file-devicons-appcelerator-medium-red:before {
-	content: "\e6ab";
-}
-		
-.file-devicons-sass-medium-yellow:before {
-	content: "\e64b";
-}
-		
-.file-devicons-sencha-light-green:before {
-	content: "\e68c";
-}
-		
-.file-devicons-compass-medium-red:before {
-	content: "\e661";
-}
-		
-.file-devicons-heroku-medium-purple:before {
-	content: "\e67b";
-}
-		
-.file-devicons-bootstrap-medium-yellow:before {
-	content: "\e647";
-}
-		
-.file-devicons-bitbucket-medium-blue:before {
-	content: "\e603";
-}
-		
-.file-devicons-jekyll-medium-red:before {
-	content: "\e60d";
-}
-		
-.file-devicons-rust-medium-red:before {
-	content: "\e6a8";
-}
-		
-.file-devicons-clojure-medium-maroon:before {
-	content: "\e668";
-}
-		
-.folder-devicons-dropbox-medium-blue:before {
-	content: "\e607";
-}
-		
-.folder-devicons-vs:before {
-	content: "\e60c";
-}
-		
-.folder-devicons-atom-dark-green:before {
-	content: "\e664";
-}
-		
-.folder-devicons-node-dark-green:before {
-	content: "\e618";
-}
-		
-.folder-devicons-vim-medium-green:before {
-	content: "\e6c5";
-}
-		
-.folder-devicons-bower-medium-yellow:before {
-	content: "\e64d";
-}
-		
-.folder-devicons-node-medium-green:before {
-	content: "\e618";
-}
-		
+	.file-devicons-erlang-medium-green:before {
+		content: "\e6b1";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-perl-medium-blue:before {
+		content: "\e669";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-devicons-erlang-dark-maroon:before {
+		content: "\e6b1";
+		color: #7c4426;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-medium-green:before {
+		content: "\e613";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-windows:before {
+		content: "\e60f";
+		color: black;
+		font-size: 100%;
+	}
+			
+	.file-devicons-rust-medium-maroon:before {
+		content: "\e6a8";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-dark-purple:before {
+		content: "\e613";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-medium-blue:before {
+		content: "\e613";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-perl-medium-red:before {
+		content: "\e669";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-devicons-windows-medium-purple:before {
+		content: "\e60f";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-devicons-node-dark-green:before {
+		content: "\e618";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-unity3d-dark-green:before {
+		content: "\e621";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-medium-blue:before {
+		content: "\e60c";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-devicons-yeoman-medium-cyan:before {
+		content: "\e67a";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vim-medium-green:before {
+		content: "\e6c5";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-asp-dark-cyan:before {
+		content: "\e67f";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-devicons-perl-dark-blue:before {
+		content: "\e669";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-devicons-heroku-dark-purple:before {
+		content: "\e67b";
+		color: #825078;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-dark-green:before {
+		content: "\e60c";
+		color: #66783e;
+		font-size: 100%;
+	}
+			
+	.file-devicons-unity3d-dark-red:before {
+		content: "\e621";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-dark-blue:before {
+		content: "\e60c";
+		color: #46788d;
+		font-size: 100%;
+	}
+			
+	.file-devicons-vs-dark-purple:before {
+		content: "\e60c";
+		color: #825078;
+		font-size: 100%;
+	}
+			
+	.file-devicons-asp-dark-blue:before {
+		content: "\e67f";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-devicons-unity3d-dark-cyan:before {
+		content: "\e621";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-devicons-asp-medium-green:before {
+		content: "\e67f";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-clojure-medium-red:before {
+		content: "\e668";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-medium-red:before {
+		content: "\e613";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-medium-purple:before {
+		content: "\e60c";
+		color: #aa759f;
+		font-size: 100%;
+	}
+			
+	.file-devicons-appstore-medium-purple:before {
+		content: "\e613";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-devicons-swift-medium-orange:before {
+		content: "\e655";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-devicons-git-medium-red:before {
+		content: "\e602";
+		color: #ac4142;
+		font-size: 107%;
+	}
+			
+	.file-devicons-asp-medium-purple:before {
+		content: "\e67f";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-devicons-node-medium-green:before {
+		content: "\e618";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-clojure-medium-yellow:before {
+		content: "\e668";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-devicons-jekyll-medium-green:before {
+		content: "\e60d";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-erlang-medium-maroon:before {
+		content: "\e6b1";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-devicons-erlang-medium-red:before {
+		content: "\e6b1";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-asp-medium-cyan:before {
+		content: "\e67f";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-devicons-prolog-medium-purple:before {
+		content: "\e6a1";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-devicons-unity3d-medium-maroon:before {
+		content: "\e621";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-dark-cyan:before {
+		content: "\e613";
+		color: #4d9085;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bootstrap-medium-orange:before {
+		content: "\e647";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-devicons-erlang-dark-green:before {
+		content: "\e6b1";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-dark-red:before {
+		content: "\e60c";
+		color: #be2f31;
+		font-size: 100%;
+	}
+			
+	.file-devicons-fsharp-medium-blue:before {
+		content: "\e6a7";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-safari-medium-blue:before {
+		content: "\e648";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-dark-red:before {
+		content: "\e613";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-devicons-windows-medium-blue:before {
+		content: "\e60f";
+		color: #6a9fb5;
+		font-size: 100%;
+	}
+			
+	.file-devicons-eclipse-medium-red:before {
+		content: "\e69e";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-sass-dark-pink:before {
+		content: "\e64b";
+		color: #cc00a3;
+		font-size: 114%;
+	}
+			
+	.file-devicons-prolog-medium-cyan:before {
+		content: "\e6a1";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-devicons-typo3-medium-orange:before {
+		content: "\e672";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-dark-orange:before {
+		content: "\e60c";
+		color: #a35f27;
+		font-size: 100%;
+	}
+			
+	.file-devicons-appstore-medium-cyan:before {
+		content: "\e613";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-devicons-atom-dark-green:before {
+		content: "\e664";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-medium-orange:before {
+		content: "\e60c";
+		color: #d28445;
+		font-size: 100%;
+	}
+			
+	.file-devicons-chrome-medium-red:before {
+		content: "\e643";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-perl-medium-purple:before {
+		content: "\e669";
+		color: #aa759f;
+		font-size: 107%;
+	}
+			
+	.file-devicons-rust-light-maroon:before {
+		content: "\e6a8";
+		color: #be7953;
+		font-size: 114%;
+	}
+			
+	.file-devicons-dlang-medium-red:before {
+		content: "\e6af";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-clojure-medium-green:before {
+		content: "\e668";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-dart-medium-cyan:before {
+		content: "\e698";
+		color: #75b5aa;
+		font-size: 107%;
+	}
+			
+	.file-devicons-vs-medium-maroon:before {
+		content: "\e60c";
+		color: #8f5536;
+		font-size: 100%;
+	}
+			
+	.file-devicons-unity3d-dark-blue:before {
+		content: "\e621";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-devicons-heroku-light-purple:before {
+		content: "\e67b";
+		color: #c7a4c0;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vim-dark-green:before {
+		content: "\e6c5";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-clojure-medium-purple:before {
+		content: "\e668";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-devicons-sass-light-pink:before {
+		content: "\e64b";
+		color: #ff4ddb;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-medium-green:before {
+		content: "\e60c";
+		color: #90a959;
+		font-size: 100%;
+	}
+			
+	.file-devicons-unity3d-medium-red:before {
+		content: "\e621";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-atom-medium-green:before {
+		content: "\e664";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-unity3d-medium-blue:before {
+		content: "\e621";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-perl-dark-purple:before {
+		content: "\e669";
+		color: #825078;
+		font-size: 107%;
+	}
+			
+	.file-devicons-clojure-medium-blue:before {
+		content: "\e668";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-eclipse-dark-blue:before {
+		content: "\e69e";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-devicons-safari-dark-blue:before {
+		content: "\e648";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-devicons-prolog-medium-blue:before {
+		content: "\e6a1";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appstore-dark-blue:before {
+		content: "\e613";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-medium-red:before {
+		content: "\e60c";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-devicons-vs-light-cyan:before {
+		content: "\e60c";
+		color: #a7d0c9;
+		font-size: 100%;
+	}
+			
+	.file-devicons-firefox-medium-orange:before {
+		content: "\e645";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-light-red:before {
+		content: "\e60c";
+		color: #c97071;
+		font-size: 100%;
+	}
+			
+	.file-devicons-eclipse-medium-maroon:before {
+		content: "\e69e";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-devicons-asp-medium-maroon:before {
+		content: "\e67f";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-devicons-unity3d-medium-cyan:before {
+		content: "\e621";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs-medium-cyan:before {
+		content: "\e60c";
+		color: #75b5aa;
+		font-size: 100%;
+	}
+			
+	.file-devicons-appstore-medium-orange:before {
+		content: "\e613";
+		color: #d28445;
+		font-size: 114%;
+	}
+			
+	.file-devicons-erlang-dark-red:before {
+		content: "\e6b1";
+		color: #be2f31;
+		font-size: 114%;
+	}
+			
+	.file-devicons-asp-dark-green:before {
+		content: "\e67f";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-heroku-medium-purple:before {
+		content: "\e67b";
+		color: #aa759f;
+		font-size: 114%;
+	}
+			
+	.file-devicons-backbone-dark-blue:before {
+		content: "\e652";
+		color: #46788d;
+		font-size: 114%;
+	}
+			
+	.file-devicons-jquery-dark-blue:before {
+		content: "\e650";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-devicons-snapsvg-medium-cyan:before {
+		content: "\e65e";
+		color: #75b5aa;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bootstrap-light-pink:before {
+		content: "\e647";
+		color: #ff4ddb;
+		font-size: 107%;
+	}
+			
+	.file-devicons-uikit-medium-blue:before {
+		content: "\e673";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-devicons-bootstrap-medium-green:before {
+		content: "\e647";
+		color: #90a959;
+		font-size: 107%;
+	}
+			
+	.file-devicons-sass-medium-yellow:before {
+		content: "\e64b";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bower-medium-yellow:before {
+		content: "\e64d";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-devicons-requirejs-medium-blue:before {
+		content: "\e670";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-angular-medium-red:before {
+		content: "\e653";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-raphael-medium-orange:before {
+		content: "\e65f";
+		color: #d28445;
+		font-size: 107%;
+	}
+			
+	.file-devicons-sencha-light-green:before {
+		content: "\e68c";
+		color: #b2c38b;
+		font-size: 114%;
+	}
+			
+	.file-devicons-dojo-light-red:before {
+		content: "\e61c";
+		color: #c97071;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bootstrap-medium-yellow:before {
+		content: "\e647";
+		color: #f4bf75;
+		font-size: 107%;
+	}
+			
+	.file-devicons-compass-medium-red:before {
+		content: "\e661";
+		color: #ac4142;
+		font-size: 100%;
+	}
+			
+	.file-devicons-materialize-light-red:before {
+		content: "\e6b6";
+		color: #c97071;
+		font-size: 114%;
+	}
+			
+	.file-devicons-appcelerator-medium-red:before {
+		content: "\e6ab";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bitbucket-medium-blue:before {
+		content: "\e603";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bootstrap-dark-blue:before {
+		content: "\e647";
+		color: #46788d;
+		font-size: 107%;
+	}
+			
+	.file-devicons-bootstrap-medium-blue:before {
+		content: "\e647";
+		color: #6a9fb5;
+		font-size: 107%;
+	}
+			
+	.file-devicons-jekyll-medium-red:before {
+		content: "\e60d";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-clojure-medium-maroon:before {
+		content: "\e668";
+		color: #8f5536;
+		font-size: 114%;
+	}
+			
+	.file-devicons-rust-medium-red:before {
+		content: "\e6a8";
+		color: #ac4142;
+		font-size: 114%;
+	}
+			
+	.file-devicons-bower-medium-yellow:before {
+		content: "\e64d";
+		color: #f4bf75;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vim-medium-green:before {
+		content: "\e6c5";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
+	.file-devicons-vs:before {
+		content: "\e60c";
+		color: black;
+		font-size: 100%;
+	}
+			
+	.file-devicons-atom-dark-green:before {
+		content: "\e664";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-node-dark-green:before {
+		content: "\e618";
+		color: #66783e;
+		font-size: 114%;
+	}
+			
+	.file-devicons-dropbox-medium-blue:before {
+		content: "\e607";
+		color: #6a9fb5;
+		font-size: 114%;
+	}
+			
+	.file-devicons-node-medium-green:before {
+		content: "\e618";
+		color: #90a959;
+		font-size: 114%;
+	}
+			
