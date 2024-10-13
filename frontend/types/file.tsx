@@ -18,4 +18,5 @@ export type FILE = {
     time: string
     name: string
     type:  string
+    icon: string
 }

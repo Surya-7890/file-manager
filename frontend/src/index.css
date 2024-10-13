@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: "fi";
+	src: url('assets/fonts/file-icons.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'devopicons';
+	src: url('assets/fonts/devopicons.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'mf';
+	src: url('assets/fonts/mfixx.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'fa';
+	src: url('assets/fonts/fontawesome.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'octicons';
+	src: url('assets/fonts/octicons.woff2') format('woff2');
+}

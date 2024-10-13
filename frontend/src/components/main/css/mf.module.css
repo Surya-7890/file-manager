@@ -1,0 +1,343 @@
+.icon {
+	font-family: 'mf';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+}
+
+[class^="folder-mf"]:before {
+    font-family: "mf";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+}
+
+[class^="file-mf"]:before {
+    font-family: "mf";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+}
+	
+
+.file-mf-x11-medium-orange:before {
+	content: "\f16e";
+}
+		
+.file-mf-msql-medium-purple:before {
+	content: "\f136";
+}
+		
+.file-mf-archlinux-light-yellow:before {
+	content: "A";
+}
+		
+.file-mf-sql-medium-red:before {
+	content: "\f10e";
+}
+		
+.file-mf-sql-medium-orange:before {
+	content: "\f10e";
+}
+		
+.file-mf-js-medium-maroon:before {
+	content: "\f129";
+}
+		
+.file-mf-elixir-dark-purple:before {
+	content: "\f113";
+}
+		
+.file-mf-sql-medium-purple:before {
+	content: "\f10e";
+}
+		
+.file-mf-python-dark-blue:before {
+	content: "\f14c";
+}
+		
+.file-mf-js-medium-cyan:before {
+	content: "\f129";
+}
+		
+.file-mf-red-hat-dark-red:before {
+	content: "\f14e";
+}
+		
+.file-mf-python-dark-green:before {
+	content: "\f14c";
+}
+		
+.file-mf-svg-dark-yellow:before {
+	content: "\f15c";
+}
+		
+.file-mf-scala-medium-red:before {
+	content: "\f154";
+}
+		
+.file-mf-js-medium-green:before {
+	content: "\f129";
+}
+		
+.file-mf-c-medium-green:before {
+	content: "\f106";
+}
+		
+.file-mf-js-medium-blue:before {
+	content: "\f129";
+}
+		
+.file-mf-js-medium-yellow:before {
+	content: "\f129";
+}
+		
+.file-mf-sql-medium-blue:before {
+	content: "\f10e";
+}
+		
+.file-mf-cpp-medium-red:before {
+	content: "\f10b";
+}
+		
+.file-mf-sql-medium-green:before {
+	content: "\f10e";
+}
+		
+.file-mf-sql-dark-blue:before {
+	content: "\f10e";
+}
+		
+.file-mf-js-medium-orange:before {
+	content: "\f129";
+}
+		
+.file-mf-python-medium-blue:before {
+	content: "\f14c";
+}
+		
+.file-mf-debian-dark-cyan:before {
+	content: "\f111";
+}
+		
+.file-mf-cpp-medium-orange:before {
+	content: "\f10b";
+}
+		
+.file-mf-python-medium-pink:before {
+	content: "\f14c";
+}
+		
+.file-mf-cpp-medium-blue:before {
+	content: "\f10b";
+}
+		
+.file-mf-haskell-dark-blue:before {
+	content: "\f121";
+}
+		
+.file-mf-elixir-medium-purple:before {
+	content: "\f113";
+}
+		
+.file-mf-sql-dark-red:before {
+	content: "\f10e";
+}
+		
+.file-mf-js-medium-pink:before {
+	content: "\f129";
+}
+		
+.file-mf-apache-dark-red:before {
+	content: "\f102";
+}
+		
+.file-mf-python-medium-green:before {
+	content: "\f14c";
+}
+		
+.file-mf-js-medium-purple:before {
+	content: "\f129";
+}
+		
+.file-mf-python-medium-orange:before {
+	content: "\f14c";
+}
+		
+.file-mf-objc-dark-blue:before {
+	content: "\f13e";
+}
+		
+.file-mf-js-medium-red:before {
+	content: "\f129";
+}
+		
+.file-mf-c-medium-purple:before {
+	content: "\f106";
+}
+		
+.file-mf-c-medium-blue:before {
+	content: "\f106";
+}
+		
+.file-mf-objc-dark-red:before {
+	content: "\f13e";
+}
+		
+.file-mf-python-dark-pink:before {
+	content: "\f14c";
+}
+		
+.file-mf-python-medium-maroon:before {
+	content: "\f14c";
+}
+		
+.file-mf-haskell-medium-blue:before {
+	content: "\f121";
+}
+		
+.file-mf-sql-dark-cyan:before {
+	content: "\f10e";
+}
+		
+.file-mf-apache-dark-green:before {
+	content: "\f102";
+}
+		
+.file-mf-python-medium-yellow:before {
+	content: "\f14c";
+}
+		
+.file-mf-apache-medium-green:before {
+	content: "\f102";
+}
+		
+.file-mf-osx-medium-red:before {
+	content: "\f141";
+}
+		
+.file-mf-haskell-dark-purple:before {
+	content: "\f121";
+}
+		
+.file-mf-c-medium-orange:before {
+	content: "\f106";
+}
+		
+.file-mf-haskell-medium-maroon:before {
+	content: "\f121";
+}
+		
+.file-mf-cpp-medium-purple:before {
+	content: "\f10b";
+}
+		
+.file-mf-csharp-medium-blue:before {
+	content: "\f10c";
+}
+		
+.file-mf-c-dark-blue:before {
+	content: "\f106";
+}
+		
+.file-mf-red-hat-medium-red:before {
+	content: "\f14e";
+}
+		
+.file-mf-python-dark-red:before {
+	content: "\f14c";
+}
+		
+.file-mf-c-medium-maroon:before {
+	content: "\f106";
+}
+		
+.file-mf-java-medium-purple:before {
+	content: "\f126";
+}
+		
+.file-mf-debian-medium-red:before {
+	content: "\f111";
+}
+		
+.file-mf-java-medium-maroon:before {
+	content: "\f126";
+}
+		
+.file-mf-js-dark-purple:before {
+	content: "\f129";
+}
+		
+.file-mf-c-medium-cyan:before {
+	content: "\f106";
+}
+		
+.file-mf-haskell-medium-purple:before {
+	content: "\f121";
+}
+		
+.file-mf-scala-medium-green:before {
+	content: "\f154";
+}
+		
+.file-mf-python-dark-purple:before {
+	content: "\f14c";
+}
+		
+.file-mf-js-dark-yellow:before {
+	content: "\f129";
+}
+		
+.file-mf-pgsql-dark-blue:before {
+	content: "\f14a";
+}
+		
+.file-mf-sql-medium-cyan:before {
+	content: "\f10e";
+}
+		
+.file-mf-python-medium-grey:before {
+	content: "\f14c";
+}
+		
+.file-mf-archlinux-dark-maroon:before {
+	content: "A";
+}
+		
+.file-mf-elixir-light-purple:before {
+	content: "\f113";
+}
+		
+.file-mf-archlinux-dark-purple:before {
+	content: "A";
+}
+		
+.file-mf-apache-medium-red:before {
+	content: "\f102";
+}
+		
+.file-mf-archlinux-dark-yellow:before {
+	content: "A";
+}
+		
+.file-mf-python-dark-maroon:before {
+	content: "\f14c";
+}
+		
+.file-mf-archlinux-dark-cyan:before {
+	content: "A";
+}
+		
+.file-mf-debian-medium-cyan:before {
+	content: "\f111";
+}
+		
+.file-mf-objc-medium-blue:before {
+	content: "\f13e";
+}
+		

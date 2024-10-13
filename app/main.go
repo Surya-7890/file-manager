@@ -1,6 +1,7 @@
 package app
 
 import (
+	"file-manager/app/data"
 	"file-manager/app/functions"
 	"file-manager/app/watchdog"
 	"os"
@@ -25,6 +26,7 @@ func NewApplication() *Application {
 }
 
 func (a *Application) ChangeDirectory(path string) string {
+	data.GenerateCSS()
 	dir, err := os.UserHomeDir()
 	if err != nil {
 		return "error while changing directory" + err.Error() + " " + path
