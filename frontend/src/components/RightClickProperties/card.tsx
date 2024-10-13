@@ -21,8 +21,8 @@ export default function Card({ name, functionalityToastMessage }: Card) {
     setShowModal(false);
   };
 
-  const showCreateFolderModel = () => {
-    setShowModal(true);
+  const showCreateFolderModel = (name: string) => {
+    if (name === "New Folder") setShowModal(true);
   };
 
   return (
@@ -32,10 +32,11 @@ export default function Card({ name, functionalityToastMessage }: Card) {
         handleClose={() => setShowModal(false)}
         handleCreate={handleCreate}
       />
-
       <button
         className="block w-full text-left px-2 py-1 hover:bg-gray-200 hover:text-black"
-        onClick={showCreateFolderModel}
+        onClick={() => {
+          showCreateFolderModel(name);
+        }}
       >
         {name}
       </button>
