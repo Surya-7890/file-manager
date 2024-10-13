@@ -2,8 +2,11 @@ package main
 
 import (
 	"embed"
+	"fmt"
+	"os"
 
 	a "file-manager/app"
+	"file-manager/app/data"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -17,6 +20,8 @@ func main() {
 	// Create an instance of the app structure
 	app := NewApp()
 	application := a.NewApplication()
+
+	go generateCss()
 
 	// Create application with options
 	err := wails.Run(&options.App{
@@ -36,4 +41,35 @@ func main() {
 	if err != nil {
 		println("Error:", err.Error())
 	}
+}
+
+
+func generateCss() {
+	dir, err := os.Getwd()
+	fmt.Println("----------------", dir)
+	if err != nil {
+		panic(err)
+	}
+
+	if len(dir) <= 0 {
+		return
+	}
+
+	if dir[len(dir) - 1] == '/' {
+		dir += "frontend/src/components/main/css/"
+	} else {
+		dir += "/frontend/src/components/main/css/"
+	}
+	
+	bytes, err := os.ReadFile(dir+"fa.module.css")
+	if err != nil {
+		panic(err)
+	}
+
+	if len(string(bytes)) > 0 {
+		fmt.Println("---------------------------- content present -----------------------", len(string(bytes)))
+		return
+	}
+	fmt.Println("---------------------------- content NOT present -----------------------")
+	data.GenerateCSS()
 }
