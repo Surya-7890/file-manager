@@ -2,9 +2,19 @@ import { FILE } from "../../../types/file";
 import { FileIcon } from "../../svg/file-icon";
 import styles from "./css/mf.module.css";
 
-export default function MfModule({ item }: { item: FILE }) {
+export default function MfModule({
+  item,
+  onRightClick,
+}: {
+  item: FILE;
+  onRightClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+}) {
   return (
-    <div className="h-[70px] aspect-square" key={item.name}>
+    <div
+      className="h-[70px] aspect-square"
+      key={item.name}
+      onContextMenu={onRightClick}
+    >
       {item.icon !== "" ? (
         <div className="h-[70px] aspect-square flex justify-center items-center">
           <FileIcon />

@@ -3,6 +3,4 @@
 
 export function ChangeDirectory(arg1:string):Promise<string>;
 
-export function CreateFolder(arg1:string):Promise<string>;
-
 export function GetInitialData():Promise<string>;

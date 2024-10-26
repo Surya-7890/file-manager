@@ -22,24 +22,25 @@ export default function App() {
     get_contents();
   }, []);
 
-  useEffect(() => {
-    console.table(contents);
-  }, [contents.length]);
+  // useEffect(() => {
+  //   console.table(contents);
+  // }, [contents.length]);
 
-  useEffect(() => {
-    console.log(location.join("/"));
-  }, [location.length]);
+  // useEffect(() => {
+  //   console.log(location.join("/"));
+  // }, [location.length]);
 
   const handleRightClick = (
     e: React.MouseEvent<HTMLDivElement, MouseEvent>
   ) => {
     // e.preventDefault()
+    // console.log(e.pageX, e.pageY);
   };
 
   return (
     <div
       className="h-screen w-screen bg-[#2E2E2E] text-white"
-      onContextMenu={handleRightClick}
+      onClick={handleRightClick}
     >
       <Historybar />
       <div className="flex h-[90%] w-full">
