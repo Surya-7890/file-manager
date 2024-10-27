@@ -7,7 +7,8 @@ export default function Main() {
   const contents = application((state) => state.contents);
 
   const hideMenu = contextMenu((state) => state.hideMenu);
-  const position = contextMenu((state) => state.file);
+  const filePosition = contextMenu((state) => state.file);
+  const normalPosition = contextMenu((state) => state.normal);
   const openNormalContext = contextMenu((state) => state.setNormalPosition);
 
   const handleNormalContextOpen = (
@@ -39,10 +40,16 @@ export default function Main() {
         </div>
       </div>
       <div className="h-[5%] w-full bg-white"></div>
-      {position.left && position.top && (
+      {filePosition.left && filePosition.top && (
         <div
           className="absolute z-20 h-64 min-w-44 bg-[#242424] rounded-md"
-          style={{ top: position.top, left: position.left }}
+          style={{ top: filePosition.top, left: filePosition.left }}
+        ></div>
+      )}
+      {normalPosition.left && normalPosition.top && (
+        <div
+          className="absolute z-20 h-64 min-w-44 bg-[#242424] rounded-md"
+          style={{ top: normalPosition.top, left: normalPosition.left }}
         ></div>
       )}
     </div>

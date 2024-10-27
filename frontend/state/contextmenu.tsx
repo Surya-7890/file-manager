@@ -44,7 +44,10 @@ export const contextMenu = create<ContextMenu>((set) => {
       set((state) => {
         return {
           ...state,
-          normal: position,
+          normal: {
+            left: position.left - DIMENSIONS.LEFT,
+            top: position.top - DIMENSIONS.TOP,
+          },
         };
       });
     },
