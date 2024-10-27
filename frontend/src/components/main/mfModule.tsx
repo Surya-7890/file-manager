@@ -4,9 +4,11 @@ import styles from "./css/mf.module.css";
 
 export default function MfModule({
   item,
+  index,
   onRightClick,
 }: {
   item: FILE;
+  index: number;
   onRightClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }) {
   return (
@@ -14,6 +16,8 @@ export default function MfModule({
       className="h-[70px] aspect-square"
       key={item.name}
       onContextMenu={onRightClick}
+      // @ts-ignore
+      index={index}
     >
       {item.icon !== "" ? (
         <div className="h-[70px] aspect-square flex justify-center items-center">
