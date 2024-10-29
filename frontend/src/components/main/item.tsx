@@ -19,8 +19,8 @@ export default function Item({ item, index, type }: Params) {
   const onRightClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     e.preventDefault();
     e.stopPropagation();
-    console.log(e.currentTarget.getAttribute("index"));
-    handleFileClick({ left: e.pageX, top: e.pageY });
+    const index = e.currentTarget.getAttribute("index");
+    handleFileClick({ left: e.pageX, top: e.pageY }, Number(index));
   };
 
   return (

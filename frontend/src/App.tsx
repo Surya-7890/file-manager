@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <div
-      className="h-screen w-screen bg-[#2E2E2E] text-white"
+      className="h-screen w-screen bg-[#2E2E2E] text-white overflow-hidden"
       onClick={handleRightClick}
     >
       <Historybar />
