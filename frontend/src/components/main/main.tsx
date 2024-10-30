@@ -99,7 +99,7 @@ export default function Main() {
       {normalPosition.left && normalPosition.top && (
         <div className="z-10 absolute top-0 left-0 h-full w-full bg-transparent">
           <div
-            className="absolute h-72 w-44 bg-[#242424] rounded-sm overflow-y-scroll"
+            className="absolute h-fit max-h-72 w-44 bg-[#242424] rounded-sm overflow-y-scroll"
             style={{ top: normalPosition.top, left: normalPosition.left }}
           >
             {NormalContextList.map((item, index) => (
@@ -109,12 +109,12 @@ export default function Main() {
                 //@ts-ignore
                 index={index}
               >
-                <MenuItem item={item} type="normal" />
+                <MenuItem item={item} />
               </div>
             ))}
           </div>
           <div
-            className="h-56 w-44 absolute bg-[#242424] border-l-[0.1px] border-l-[dodgerblue] rounded-sm"
+            className="max-h-56 h-fit overflow-y-scroll w-44 absolute bg-[#242424] border-l-[0.1px] border-l-[dodgerblue] rounded-sm"
             onMouseEnter={handleMouseOverMenuItem}
             onMouseLeave={handleMouseExitMenuItem}
             style={{
@@ -129,7 +129,7 @@ export default function Main() {
           >
             {menuIndex >= 0 &&
               NormalContextList[menuIndex].sub_properties.map((item, index) => (
-                <MenuItem item={item} type="sub" />
+                <MenuItem item={item} />
               ))}
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { FILE } from "../../../types/file";
-import { FileIcon } from "../../svg/file-icon";
+import { FileIcon } from "../../assets/svg/file-icon";
 import styles from "./css/fi.module.css";
 
 export default function FiModule({

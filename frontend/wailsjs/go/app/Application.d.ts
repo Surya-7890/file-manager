@@ -3,4 +3,6 @@
 
 export function ChangeDirectory(arg1:string):Promise<string>;
 
+export function Create(arg1:string,arg2:string):Promise<string>;
+
 export function GetInitialData():Promise<string>;

@@ -4,9 +4,9 @@ import { ChangeDirectory } from "../wailsjs/go/app/Application";
 export const setContents = async (location: string): Promise<FILE[]> => {
   try {
     /* 
-            the respose will be a json string
-            parse the json and return it
-        */
+        the respose will be a json string
+        parse the json and return it
+    */
     const response = await ChangeDirectory(location);
     const contents = JSON.parse(response);
     return contents;

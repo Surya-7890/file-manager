@@ -1,12 +1,14 @@
+import { create } from "../../../functions/create";
+
 export type ExtraOptions = {
   name: string;
-  func: () => void;
+  func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 };
 
 export type NormalContextListItem = {
   name: string;
   sub_properties: ExtraOptions[];
-  func: () => void;
+  func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 };
 
 export const NormalContextList: NormalContextListItem[] = [
@@ -14,78 +16,76 @@ export const NormalContextList: NormalContextListItem[] = [
     name: "New",
     sub_properties: [
       {
-        name: "File",
-        func: () => {},
+        name: "Folder",
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+          create("folder", "new folder");
+        },
       },
       {
-        name: "Folder",
-        func: () => {},
+        name: "Text File",
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+          create("file", "text_file" + ".txt");
+        },
+      },
+      {
+        name: "Empty File",
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+          create("file", "empty_file");
+        },
+      },
+      {
+        name: "HTML File",
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+          create("file", "html_file" + ".html");
+        },
       },
     ],
-    func: () => {},
+    func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
   },
   {
     name: "Sort By",
     sub_properties: [
       {
         name: "Name",
-        func: () => {},
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
       },
       {
         name: "Created At",
-        func: () => {},
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
       },
       {
         name: "Size",
-        func: () => {},
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
       },
       {
         name: "Ascending",
-        func: () => {},
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
       },
       {
         name: "Descending",
-        func: () => {},
+        func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
       },
     ],
-    func: () => {},
-  },
-  {
-    name: "View Mode",
-    sub_properties: [
-      {
-        name: "Tiles",
-        func: () => {},
-      },
-      {
-        name: "Details",
-        func: () => {},
-      },
-      {
-        name: "Compact",
-        func: () => {},
-      },
-    ],
-    func: () => {},
+    func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
   },
   {
     name: "Copy",
     sub_properties: [],
-    func: () => {},
+    func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
   },
   {
     name: "Paste Here",
     sub_properties: [],
-    func: () => {},
+    func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
   },
   {
     name: "Open Terminal Here",
     sub_properties: [],
-    func: () => {},
+    func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
   },
   {
     name: "Properties",
     sub_properties: [],
-    func: () => {},
+    func: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {},
   },
 ];

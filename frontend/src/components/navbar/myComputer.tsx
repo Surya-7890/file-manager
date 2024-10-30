@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavbarIcons } from "../../svg/index";
+import { NavbarIcons } from "../../assets/svg";
 import MyComputerComponents from "./myComputerComponent";
 import { myComputerComponent } from "../../utils/myComputer/myComupter";
 

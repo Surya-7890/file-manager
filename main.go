@@ -63,7 +63,7 @@ func generateCss() {
 	
 	bytes, err := os.ReadFile(dir+"fa.module.css")
 	if err != nil {
-		panic(err)
+		return
 	}
 
 	if len(string(bytes)) > 0 {

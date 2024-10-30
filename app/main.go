@@ -44,6 +44,23 @@ func (a *Application) ChangeDirectory(path string) string {
 	return string(data)
 }
 
+func (a *Application) Create(name, type_ string) string {
+
+	exists, err := functions.GetFileByName(name, a.CurrentPath)
+	if err != nil {
+		return "err: " + err.Error()
+	}
+	if exists {
+		return "error: file with the name \"" + name + "\" already exists"
+	}
+
+	err = functions.Create(name, type_, a.CurrentPath)
+	if err != nil {
+		return "error: " + err.Error()
+	}
+	return "success"
+}
+
 func (a *Application) GetInitialData() string {
 	return functions.InitialData()
 }
